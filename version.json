@@ -7,5 +7,5 @@
 	"sector_levels.geojson_version": "1.0.0",
 	"tma_filter.geojson_version": "1.0.0",
 	"monitoring_zones.geojson_version": "1.0.0",
-	"tag_formats.json_version": "1.0.0",
+	"tag_formats.json_version": "1.0.0"
 }
