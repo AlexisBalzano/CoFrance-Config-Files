@@ -1,0 +1,819 @@
+{
+  "LFBB-BN": [
+    "LFBB_CTR"
+  ],
+  "LFBB-H": [
+    "LFBB_H_CTR",
+    "LFBB_US_CTR",
+    "LFBB_CTR"
+  ],
+  "LFBB-LM": [
+    "LFBB_CTR"
+  ],
+  "LFBB-L": [
+    "LFBB_L_CTR",
+    "LFBB_UN_CTR",
+    "LFBB_CTR"
+  ],
+  "LFBB-N": [
+    "LFBB_N_CTR",
+    "LFBB_US_CTR",
+    "LFBB_CTR"
+  ],
+  "LFBB-P": [
+    "LFBB_P_CTR",
+    "LFBB_UN_CTR",
+    "LFBB_CTR"
+  ],
+  "LFBB-R": [
+    "LFBB_R_CTR",
+    "LFBB_UN_CTR",
+    "LFBB_CTR"
+  ],
+  "LFBB-TG": [
+    "LFBB_CTR"
+  ],
+  "LFBB-TZ": [
+    "LFBB_CTR"
+  ],
+  "LFBB-T": [
+    "LFBB_T_CTR",
+    "LFBB_UN_CTR",
+    "LFBB_CTR"
+  ],
+  "LFBB-X": [
+    "LFBB_X_CTR",
+    "LFBB_US_CTR",
+    "LFBB_CTR"
+  ],
+  "LFBB-Z": [
+    "LFBB_Z_CTR",
+    "LFBB_US_CTR",
+    "LFBB_CTR"
+  ],
+  "LFEE-BC": [
+    "LFSB_APP",
+    "LFSB_C_APP",
+    "LFEE_CTR",
+    "LSAZ_W_CTR",
+    "LSAZ_S_CTR",
+    "LSAZ_CTR",
+    "LSAS_CTR"
+  ],
+  "LFEE-BM": [
+    "LFSB_C_APP",
+    "LFEE_UH_CTR",
+    "LFEE_CTR"
+  ],
+  "LFEE-BO": [
+    "LFSB_C_APP",
+    "LFEE_UH_CTR",
+    "LFEE_CTR"
+  ],
+  "LFEE-BU": [
+    "LFSB_C_APP",
+    "LFEE_CTR"
+  ],
+  "LFEE-HE": [
+    "LFEE_HE_CTR",
+    "LFEE_CTR",
+    "PAR_CTR"
+  ],
+  "LFEE-HH": [
+    "LFEE_HH_CTR",
+    "LFEE_CTR",
+    "PAR_CTR"
+  ],
+  "LFEE-HN": [
+    "LFEE_HN_CTR",
+    "LFEE_N_CTR",
+    "LFEE_CTR",
+    "PAR_CTR"
+  ],
+  "LFEE-HR": [
+    "LFEE_HR_CTR",
+    "LFEE_N_CTR",
+    "LFEE_CTR",
+    "PAR_CTR"
+  ],
+  "LFEE-KD1": [
+    "LFEE_KD_CTR",
+    "LFEE_CTR"
+  ],
+  "LFEE-KD2": [
+    "LFEE_KD_CTR",
+    "LFEE_CTR",
+    "PAR_CTR"
+  ],
+  "LFEE-KD": [
+    "LFEE_KD_CTR",
+    "LFEE_CTR",
+    "PAR_CTR"
+  ],
+  "LFEE-KE": [
+    "LFEE_KE_CTR",
+    "LFEE_CTR",
+    "PAR_CTR"
+  ],
+  "LFEE-KF": [
+    "LFEE_KF_CTR",
+    "LFEE_CTR",
+    "PAR_CTR"
+  ],
+  "LFEE-KH": [
+    "LFEE_KH_CTR",
+    "LFEE_CTR",
+    "PAR_CTR"
+  ],
+  "LFEE-KR": [
+    "LFEE_KR_CTR",
+    "LFEE_N_CTR",
+    "LFEE_CTR",
+    "PAR_CTR"
+  ],
+  "LFEE-SU": [
+    "LFST_APP",
+    "LFEE_UE_CTR",
+    "LFEE_CTR"
+  ],
+  "LFEE-UB": [
+    "LFEE_UB_CTR",
+    "LFEE_HN_CTR",
+    "LFEE_N_CTR",
+    "LFEE_CTR",
+    "PAR_CTR"
+  ],
+  "LFEE-UE": [
+    "LFEE_UE_CTR",
+    "LFEE_CTR",
+    "PAR_CTR"
+  ],
+  "LFEE-UF": [
+    "LFEE_UF_CTR",
+    "LFEE_CTR",
+    "PAR_CTR"
+  ],
+  "LFEE-UH": [
+    "LFEE_UH_CTR",
+    "LFEE_CTR",
+    "PAR_CTR"
+  ],
+  "LFEE-UN": [
+    "LFEE_UN_CTR",
+    "LFEE_HN_CTR",
+    "LFEE_N_CTR",
+    "LFEE_CTR",
+    "PAR_CTR"
+  ],
+  "LFEE-UR": [
+    "LFEE_UR_CTR",
+    "LFEE_N_CTR",
+    "LFEE_CTR",
+    "PAR_CTR"
+  ],
+  "LFEE-XE": [
+    "LFEE_XE_CTR",
+    "LFEE_CTR",
+    "PAR_CTR"
+  ],
+  "LFEE-XH": [
+    "LFEE_XH_CTR",
+    "LFEE_CTR",
+    "PAR_CTR"
+  ],
+  "LFEE-XR": [
+    "LFEE_XR_CTR",
+    "LFEE_N_CTR",
+    "LFEE_CTR",
+    "PAR_CTR"
+  ],
+  "LFFF-AO": [
+    "PAR_AO_CTR",
+    "PAR_AOUS_CTR",
+    "PAR_AOML_CTR",
+    "PAR_RPAE_CTR",
+    "PAR_LOW_CTR",
+    "PAR_CTR"
+  ],
+  "LFFF-AP": [
+    "PAR_AP_CTR",
+    "PAR_APTE_CTR",
+    "PAR_AENB_CTR",
+    "PAR_RPAW_CTR",
+    "PAR_LOW_CTR",
+    "PAR_CTR"
+  ],
+  "LFFF-AR": [
+    "PAR_AR_CTR",
+    "PAR_ARML_CTR",
+    "PAR_AOML_CTR",
+    "PAR_RPAE_CTR",
+    "PAR_LOW_CTR",
+    "PAR_CTR"
+  ],
+  "LFFF-DG": [
+    "PAR_DG_CTR",
+    "PAR_DODG_CTR",
+    "PAR_DOGS_CTR",
+    "PAR_FPAE_CTR",
+    "PAR_DGTJ_CTR",
+    "PAR_RPAE_CTR",
+    "PAR_LOW_CTR",
+    "PAR_CTR"
+  ],
+  "LFFF-DO": [
+    "PAR_DODG_CTR",
+    "PAR_DOGS_CTR",
+    "PAR_FPAE_CTR",
+    "PAR_DGTJ_CTR",
+    "PAR_RPAE_CTR",
+    "PAR_LOW_CTR",
+    "PAR_CTR"
+  ],
+  "LFFF-HP": [
+    "PAR_HP_CTR",
+    "PAR_LMH_CTR",
+    "PAR_LMHJ_CTR",
+    "PAR_DGTJ_CTR",
+    "PAR_RPAE_CTR",
+    "PAR_LOW_CTR",
+    "PAR_CTR"
+  ],
+  "LFFF-OG": [
+    "PAR_ORGY_CTR",
+    "PAR_OPKZ_CTR",
+    "PAR_RPAW_CTR",
+    "PAR_LOW_CTR",
+    "PAR_CTR"
+  ],
+  "LFFF-OT": [
+    "PAR_OT_CTR",
+    "PAR_ORGY_CTR",
+    "PAR_OPKZ_CTR",
+    "PAR_RPAW_CTR",
+    "PAR_LOW_CTR",
+    "PAR_CTR"
+  ],
+  "LFFF-PU": [
+    "PAR_PU_CTR",
+    "PAR_LMH_CTR",
+    "PAR_LMHJ_CTR",
+    "PAR_DGTJ_CTR",
+    "PAR_RPAE_CTR",
+    "PAR_LOW_CTR",
+    "PAR_CTR"
+  ],
+  "LFFF-QA": [
+    "LFQQ_APP",
+    "PAR_TB_CTR",
+    "PAR_TNTB_CTR",
+    "PAR_AENB_CTR",
+    "PAR_RPAW_CTR",
+    "PAR_LOW_CTR",
+    "PAR_CTR"
+  ],
+  "LFFF-QD": [
+    "LFQQ_APP",
+    "PAR_TB_CTR",
+    "PAR_TNTB_CTR",
+    "PAR_AENB_CTR",
+    "PAR_RPAW_CTR",
+    "PAR_LOW_CTR",
+    "PAR_CTR"
+  ],
+  "LFFF-QE": [
+    "LFQQ_APP",
+    "PAR_TB_CTR",
+    "PAR_TNTB_CTR",
+    "PAR_AENB_CTR",
+    "PAR_RPAW_CTR",
+    "PAR_LOW_CTR",
+    "PAR_CTR"
+  ],
+  "LFFF-QR": [
+    "LFQQ_APP",
+    "PAR_TB_CTR",
+    "PAR_TNTB_CTR",
+    "PAR_AENB_CTR",
+    "PAR_RPAW_CTR",
+    "PAR_LOW_CTR",
+    "PAR_CTR"
+  ],
+  "LFFF-QW": [
+    "LFQQ_APP",
+    "PAR_TB_CTR",
+    "PAR_TNTB_CTR",
+    "PAR_AENB_CTR",
+    "PAR_RPAW_CTR",
+    "PAR_LOW_CTR",
+    "PAR_CTR"
+  ],
+  "LFFF-RT": [
+    "PAR_RT_CTR",
+    "PAR_ORGY_CTR",
+    "PAR_OPKZ_CTR",
+    "PAR_RPAW_CTR",
+    "PAR_LOW_CTR",
+    "PAR_CTR"
+  ],
+  "LFFF-S": [
+    "PAR_DODG_CTR",
+    "PAR_DOGS_CTR",
+    "PAR_FPAE_CTR",
+    "PAR_DGTJ_CTR",
+    "PAR_RPAE_CTR",
+    "PAR_LOW_CTR",
+    "PAR_CTR"
+  ],
+  "LFFF-TB": [
+    "PAR_TB_CTR",
+    "PAR_TNTB_CTR",
+    "PAR_AENB_CTR",
+    "PAR_RPAW_CTR",
+    "PAR_LOW_CTR",
+    "PAR_CTR"
+  ],
+  "LFFF-TE": [
+    "PAR_TE_CTR",
+    "PAR_APTE_CTR",
+    "PAR_AENB_CTR",
+    "PAR_RPAW_CTR",
+    "PAR_LOW_CTR",
+    "PAR_CTR"
+  ],
+  "LFFF-TH": [
+    "PAR_TH_CTR",
+    "PAR_THUZ_CTR",
+    "PAR_HPKZ_CTR",
+    "PAR_OPKZ_CTR",
+    "PAR_RPAW_CTR",
+    "PAR_LOW_CTR",
+    "PAR_CTR"
+  ],
+  "LFFF-TL": [
+    "PAR_TL_CTR",
+    "PAR_TML_CTR",
+    "PAR_ARML_CTR",
+    "PAR_AOML_CTR",
+    "PAR_RPAE_CTR",
+    "PAR_LOW_CTR",
+    "PAR_CTR"
+  ],
+  "LFFF-TM": [
+    "PAR_TM_CTR",
+    "PAR_TML_CTR",
+    "PAR_ARML_CTR",
+    "PAR_AOML_CTR",
+    "PAR_RPAE_CTR",
+    "PAR_LOW_CTR",
+    "PAR_CTR"
+  ],
+  "LFFF-TN": [
+    "PAR_TN_CTR",
+    "PAR_TNTB_CTR",
+    "PAR_AENB_CTR",
+    "PAR_RPAW_CTR",
+    "PAR_LOW_CTR",
+    "PAR_CTR"
+  ],
+  "LFFF-TP": [
+    "PAR_TP_CTR",
+    "PAR_HPKZ_CTR",
+    "PAR_OPKZ_CTR",
+    "PAR_RPAW_CTR",
+    "PAR_LOW_CTR",
+    "PAR_CTR"
+  ],
+  "LFFF-UJ": [
+    "PAR_UJ_CTR",
+    "PAR_LMHJ_CTR",
+    "PAR_DGTJ_CTR",
+    "PAR_RPAE_CTR",
+    "PAR_LOW_CTR",
+    "PAR_CTR"
+  ],
+  "LFFF-UP": [
+    "PAR_UP_CTR",
+    "PAR_LMH_CTR",
+    "PAR_LMHJ_CTR",
+    "PAR_DGTJ_CTR",
+    "PAR_RPAE_CTR",
+    "PAR_LOW_CTR",
+    "PAR_CTR"
+  ],
+  "LFFF-US": [
+    "PAR_US_CTR",
+    "PAR_AOUS_CTR",
+    "PAR_AOML_CTR",
+    "PAR_RPAE_CTR",
+    "PAR_LOW_CTR",
+    "PAR_CTR"
+  ],
+  "LFFF-UT": [
+    "PAR_UT_CTR",
+    "PAR_LMH_CTR",
+    "PAR_LMHJ_CTR",
+    "PAR_DGTJ_CTR",
+    "PAR_RPAE_CTR",
+    "PAR_LOW_CTR",
+    "PAR_CTR"
+  ],
+  "LFFF-UZ": [
+    "PAR_UZ_CTR",
+    "PAR_HPKZ_CTR",
+    "PAR_OPKZ_CTR",
+    "PAR_RPAW_CTR",
+    "PAR_LOW_CTR",
+    "PAR_CTR"
+  ],
+  "LFMM-A": [
+    "LFMM_EU_CTR",
+    "LFMM_RAE_CTR",
+    "LFMM_CTR"
+  ],
+  "LFMM-AJ": [
+    "LFMM_E_CTR",
+    "LFMM_RAE_CTR",
+    "LFMM_CTR"
+  ],
+  "LFMM-BT": [
+    "LFMM_E_CTR",
+    "LFMM_RAE_CTR",
+    "LFMM_CTR"
+  ],
+  "LFMM-B": [
+    "LFMM_EU_CTR",
+    "LFMM_U_CTR",
+    "LFMM_RAE_CTR",
+    "LFMM_CTR"
+  ],
+  "LFMM-DH": [
+    "LFMM_WU_CTR",
+    "LFMM_U_CTR",
+    "LFMM_RAW_CTR",
+    "LFMM_CTR"
+  ],
+  "LFMM-DL": [
+    "LFMM_WU_CTR",
+    "LFMM_RAW_CTR",
+    "LFMM_CTR"
+  ],
+  "LFMM-E": [
+    "LFMM_U_CTR",
+    "LFMM_E_CTR",
+    "LFMM_RAE_CTR",
+    "LFMM_CTR"
+  ],
+  "LFMM-F": [
+    "LFMM_WU_CTR",
+    "LFMM_U_CTR",
+    "LFMM_RAW_CTR",
+    "LFMM_CTR"
+  ],
+  "LFMM-G": [
+    "LFMM_EU_CTR",
+    "LFMM_U_CTR",
+    "LFMM_RAE_CTR",
+    "LFMM_CTR"
+  ],
+  "LFMM-K": [
+    "LFMM_U_CTR",
+    "LFMM_E_CTR",
+    "LFMM_RAE_CTR",
+    "LFMM_CTR"
+  ],
+  "LFMM-LE": [
+    "LFMM_W_CTR",
+    "LFMM_RAW_CTR",
+    "LFMM_CTR"
+  ],
+  "LFMM-LO": [
+    "LFMM_W_CTR",
+    "LFMM_RAW_CTR",
+    "LFMM_CTR"
+  ],
+  "LFMM-LS": [
+    "LFMM_W_CTR",
+    "LFMM_RAW_CTR",
+    "LFMM_CTR"
+  ],
+  "LFMM-ML": [
+    "LFMM_W_CTR",
+    "LFMM_RAW_CTR",
+    "LFMM_CTR"
+  ],
+  "LFMM-MN": [
+    "LFMM_E_CTR",
+    "LFMM_RAE_CTR",
+    "LFMM_CTR"
+  ],
+  "LFMM-MO": [
+    "LFMM_W_CTR",
+    "LFMM_RAW_CTR",
+    "LFMM_CTR"
+  ],
+  "LFMM-M": [
+    "LFMM_WU_CTR",
+    "LFMM_U_CTR",
+    "LFMM_RAW_CTR",
+    "LFMM_CTR"
+  ],
+  "LFMM-ST": [
+    "LFMM_E_CTR",
+    "LFMM_RAE_CTR",
+    "LFMM_CTR"
+  ],
+  "LFMM-W": [
+    "LFMM_WU_CTR",
+    "LFMM_W_CTR",
+    "LFMM_RAW_CTR",
+    "LFMM_CTR"
+  ],
+  "LFMM-Y": [
+    "LFMM_EU_CTR",
+    "LFMM_U_CTR",
+    "LFMM_RAE_CTR",
+    "LFMM_CTR"
+  ],
+  "LFMM-ZH": [
+    "LFMM_WU_CTR",
+    "LFMM_U_CTR",
+    "LFMM_RAW_CTR",
+    "LFMM_CTR"
+  ],
+  "LFMM-ZL": [
+    "LFMM_WU_CTR",
+    "LFMM_RAW_CTR",
+    "LFMM_CTR"
+  ],
+  "LFRR-AI": [
+    "LFRR_AI_CTR",
+    "LFRR_AU_CTR",
+    "LFRR_A_CTR",
+    "LFRR_US_CTR",
+    "LFRR_S_CTR",
+    "LFRR_CTR"
+  ],
+  "LFRR-AS": [
+    "LFRR_A_CTR",
+    "LFRR_S_CTR",
+    "LFRR_CTR"
+  ],
+  "LFRR-AU": [
+    "LFRR_AU_CTR",
+    "LFRR_AI_CTR",
+    "LFRR_A_CTR",
+    "LFRR_US_CTR",
+    "LFRR_S_CTR",
+    "LFRR_CTR"
+  ],
+  "LFRR-GI": [
+    "LFRR_GI_CTR",
+    "LFRR_G_CTR",
+    "LFRR_US_CTR",
+    "LFRR_S_CTR",
+    "LFRR_CTR"
+  ],
+  "LFRR-GS": [
+    "LFRR_G_CTR",
+    "LFRR_S_CTR",
+    "LFRR_CTR"
+  ],
+  "LFRR-GU": [
+    "LFRR_GU_CTR",
+    "LFRR_G_CTR",
+    "LFRR_US_CTR",
+    "LFRR_S_CTR",
+    "LFRR_CTR"
+  ],
+  "LFRR-JF": [
+    "LFRR_J_CTR",
+    "LFRR_W_CTR",
+    "LFRR_CTR"
+  ],
+  "LFRR-JI": [
+    "LFRR_J_CTR",
+    "LFRR_W_CTR",
+    "LFRR_CTR"
+  ],
+  "LFRR-JS": [
+    "LFRR_J_CTR",
+    "LFRR_W_CTR",
+    "LFRR_CTR"
+  ],
+  "LFRR-JU": [
+    "LFRR_J_CTR",
+    "LFRR_W_CTR",
+    "LFRR_CTR"
+  ],
+  "LFRR-KI": [
+    "LFRR_K_CTR",
+    "LFRR_VK_CTR",
+    "LFRR_W_CTR",
+    "LFRR_CTR"
+  ],
+  "LFRR-KS": [
+    "LFRR_K_CTR",
+    "LFRR_W_CTR",
+    "LFRR_CTR"
+  ],
+  "LFRR-KU": [
+    "LFRR_K_CTR",
+    "LFRR_VK_CTR",
+    "LFRR_W_CTR",
+    "LFRR_CTR"
+  ],
+  "LFRR-MI": [
+    "LFRR_M_CTR",
+    "LFRR_UE_CTR",
+    "LFRR_E_CTR",
+    "LFRR_CTR",
+    "PAR_CTR"
+  ],
+  "LFRR-MS": [
+    "LFRR_M_CTR",
+    "LFRR_E_CTR",
+    "LFRR_CTR",
+    "PAR_CTR"
+  ],
+  "LFRR-MU": [
+    "LFRR_M_CTR",
+    "LFRR_UE_CTR",
+    "LFRR_E_CTR",
+    "LFRR_CTR",
+    "PAR_CTR"
+  ],
+  "LFRR-NF": [
+    "LFRR_N_CTR",
+    "LFRR_S_CTR",
+    "LFRR_CTR"
+  ],
+  "LFRR-NI": [
+    "LFRR_N_CTR",
+    "LFRR_US_CTR",
+    "LFRR_S_CTR",
+    "LFRR_CTR"
+  ],
+  "LFRR-NS": [
+    "LFRR_N_CTR",
+    "LFRR_S_CTR",
+    "LFRR_CTR"
+  ],
+  "LFRR-NU": [
+    "LFRR_N_CTR",
+    "LFRR_US_CTR",
+    "LFRR_S_CTR",
+    "LFRR_CTR"
+  ],
+  "LFRR-QI": [
+    "LFRR_Q_CTR",
+    "LFRR_UE_CTR",
+    "LFRR_E_CTR",
+    "LFRR_CTR",
+    "PAR_CTR"
+  ],
+  "LFRR-QS": [
+    "LFRR_Q_CTR",
+    "LFRR_E_CTR",
+    "LFRR_CTR",
+    "PAR_CTR"
+  ],
+  "LFRR-QU": [
+    "LFRR_Q_CTR",
+    "LFRR_UE_CTR",
+    "LFRR_E_CTR",
+    "LFRR_CTR",
+    "PAR_CTR"
+  ],
+  "LFRR-VI": [
+    "LFRR_V_CTR",
+    "LFRR_VK_CTR",
+    "LFRR_W_CTR",
+    "LFRR_CTR"
+  ],
+  "LFRR-VS": [
+    "LFRR_V_CTR",
+    "LFRR_W_CTR",
+    "LFRR_CTR"
+  ],
+  "LFRR-VU": [
+    "LFRR_V_CTR",
+    "LFRR_VK_CTR",
+    "LFRR_W_CTR",
+    "LFRR_CTR"
+  ],
+  "LFRR-WI": [
+    "LFRR_WU_CTR",
+    "LFRR_WI_CTR",
+    "LFRR_W_CTR",
+    "LFRR_CTR"
+  ],
+  "LFRR-WS": [
+    "LFRR_WI_CTR",
+    "LFRR_WU_CTR",
+    "LFRR_W_CTR",
+    "LFRR_CTR"
+  ],
+  "LFRR-WU": [
+    "LFRR_WU_CTR",
+    "LFRR_W_CTR",
+    "LFRR_CTR"
+  ],
+  "LFRR-XI": [
+    "LFRR_X_CTR",
+    "LFRR_UE_CTR",
+    "LFRR_E_CTR",
+    "LFRR_CTR",
+    "PAR_CTR"
+  ],
+  "LFRR-XS": [
+    "LFRR_X_CTR",
+    "LFRR_E_CTR",
+    "LFRR_CTR",
+    "PAR_CTR"
+  ],
+  "LFRR-XU": [
+    "LFRR_X_CTR",
+    "LFRR_UE_CTR",
+    "LFRR_E_CTR",
+    "LFRR_CTR",
+    "PAR_CTR"
+  ],
+  "LFRR-ZI": [
+    "LFRR_Z_CTR",
+    "LFRR_UE_CTR",
+    "LFRR_E_CTR",
+    "LFRR_CTR",
+    "PAR_CTR"
+  ],
+  "LFRR-ZS": [
+    "LFRR_Z_CTR",
+    "LFRR_E_CTR",
+    "LFRR_CTR",
+    "PAR_CTR"
+  ],
+  "LFRR-ZU": [
+    "LFRR_Z_CTR",
+    "LFRR_UE_CTR",
+    "LFRR_E_CTR",
+    "LFRR_CTR",
+    "PAR_CTR"
+  ],
+  "EGTT-S2": [
+    "LON_SU_CTR",
+    "LON_SN_CTR",
+    "LON_D_CTR",
+    "LON_S_CTR",
+    "LON_SC_CTR",
+    "LON_CTR"
+  ],
+  "EGTT-S16": [
+    "LON_DL_CTR",
+    "LON_D_CTR",
+    "LON_S_CTR",
+    "LON_SC_CTR",
+    "LON_CTR"
+  ],
+  "EGTT-S17": [
+    "LON_DL_CTR",
+    "LON_D_CTR",
+    "LON_S_CTR",
+    "LON_SC_CTR",
+    "LON_CTR"
+  ],
+  "EDYY-KOKSY": [
+    "EDYY_K_CTR",
+    "EDYY_N_CTR",
+    "EBBU_U_CTR",
+    "EBBU_W_CTR",
+    "EBBU_E_CTR"
+  ],
+  "EDYY-NICKY": [
+    "EDYY_N_CTR",
+    "EBBU_U_CTR",
+    "EBBU_W_CTR",
+    "EBBU_E_CTR"
+  ],
+  "EDYY-LUX": [
+    "EDYY_L_CTR",
+    "EDYY_O_CTR",
+    "EBBU_U_CTR",
+    "EBBU_E_CTR",
+    "EBBU_W_CTR"
+  ],
+  "EDUU-NTM": [
+    "EDUU_NTM_CTR",
+    "EDUU_FUL_CTR",
+    "EDUU_WUR_CTR",
+    "EDGG_GIN_CTR",
+    "EDGG_KTG_CTR"
+  ],
+  "EDUU-SLN": [
+    "EDUU_SLN_CTR",
+    "EDUU_TGO_CTR",
+    "EDUU_NTM_CTR",
+    "EDUU_WUR_CTR",
+    "EDGG_DKB_CTR",
+    "EDGG_KTG_CTR"
+  ]
+}

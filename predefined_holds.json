@@ -1,0 +1,66 @@
+{
+  "PAR_": [
+    {
+      "MOPAR": {
+        "upperfl": 160,
+        "lowerfl": 70
+      },
+      "LORNI": {
+        "upperfl": 170,
+        "lowerfl": 70
+      },
+      "ENORI": {
+        "upperfl": 240,
+        "lowerfl": 90
+      },
+      "XERAM": {
+        "upperfl": 280,
+        "lowerfl": 200
+      },
+      "OKIPA": {
+        "upperfl": 190,
+        "lowerfl": 70
+      },
+      "MOLBA": {
+        "upperfl": 140,
+        "lowerfl": 70
+      },
+      "BANOX": {
+        "upperfl": 180,
+        "lowerfl": 70
+      },
+      "ODILO": {
+        "upperfl": 140,
+        "lowerfl": 70
+      }
+    }
+  ],
+  "LFEE_": [
+    {
+      "REM": {
+        "upperfl": 370,
+        "lowerfl": 320
+      },
+      "NANCY": {
+        "upperfl": 660,
+        "lowerfl": 0
+      },
+      "ABUDA": {
+        "upperfl": 370,
+        "lowerfl": 200
+      },
+      "CMB": {
+        "upperfl": 660,
+        "lowerfl": 270
+      },
+      "VESAN": {
+        "upperfl": 370,
+        "lowerfl": 270
+      },
+      "RANUX": {
+        "upperfl": 370,
+        "lowerfl": 320
+      }
+    }
+  ]
+}

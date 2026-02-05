@@ -1,0 +1,703 @@
+{
+"type": "FeatureCollection",
+"name": "sector_levels",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{
+	"type": "Feature",
+	"properties": {
+	    "size": 20,
+		"name": "TE-West",
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 265,
+		        "ownership": "LFEE-UR",
+		        "prefixCallsign": "PAR_",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 265,
+		        "lowerAlt": 115,
+		        "ownership": "LFFF-TE",
+		        "combine": []
+		    }
+		]
+	},
+	"geometry": { "type": "Point", "coordinates": [ 3.704889515995612, 49.818575219277704 ] }
+},
+{
+	"type": "Feature",
+	"properties": {
+	    "size": 20,
+		"name": "TE-AP",
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 315,
+		        "ownership": "LFEE-XR",
+		        "prefixCallsign": "PAR_",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 315,
+		        "lowerAlt": 265,
+		        "ownership": "LFFF-AP",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 265,
+		        "lowerAlt": 115,
+		        "ownership": "LFFF-TE",
+		        "combine": []
+		    }
+		]
+	},
+	"geometry": { "type": "Point", "coordinates": [ 4.357082619298638, 49.777545347782528 ] }
+},
+{
+	"type": "Feature",
+	"properties": {
+	    "size": 20,
+		"name": "TM-AP",
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 315,
+		        "ownership": "LFEE-XR",
+		        "prefixCallsign": "PAR_",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 315,
+		        "lowerAlt": 265,
+		        "ownership": "LFFF-AP",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 265,
+		        "lowerAlt": 115,
+		        "ownership": "LFFF-TM",
+		        "combine": []
+		    }
+		]
+	},
+	"geometry": { "type": "Point", "coordinates": [ 4.7, 49.22 ] }
+},
+{
+	"type": "Feature",
+	"properties": {
+	    "size": 20,
+		"name": "TPUK",
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 295,
+		        "ownership": "LFRR-QS",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 295,
+		        "lowerAlt": 115,
+		        "ownership": "LFFF-TP",
+		        "combine": []
+		    }
+		]
+	},
+	"geometry": { "type": "Point", "coordinates": [ 0.574946975151511, 49.60384506967015 ] }
+},
+{
+	"type": "Feature",
+	"properties": {
+	    "size": 20,
+		"name": "THUZ",
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 295,
+		        "ownership": "LFRR-XS",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 295,
+		        "lowerAlt": 115,
+		        "ownership": "LFFF-TH",
+		        "combine": []
+		    }
+		]
+	},
+	"geometry": { "type": "Point", "coordinates": [ 0.52, 48.85
+	 ] }
+},
+{
+	"type": "Feature",
+	"properties": {
+	    "size": 20,
+		"name": "OG",
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 305,
+		        "ownership": "LFRR-XS",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 305,
+		        "lowerAlt": 115,
+		        "ownership": "LFFF-OG",
+		        "combine": []
+		    }
+		]
+	},
+	"geometry": { "type": "Point", "coordinates": [ 0.571748818077032, 47.654329189121 ] }
+},
+{
+	"type": "Feature",
+	"properties": {
+	    "size": 20,
+		"name": "DG-UZ",
+		"layers": [
+		    {
+		        "upperAlt": 295,
+		        "lowerAlt": 265,
+		        "ownership": "LFFF-TH",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 265,
+		        "lowerAlt": 115,
+		        "ownership": "LFFF-DG",
+		        "combine": []
+		    }
+		]
+	},
+	"geometry": { "type": "Point", "coordinates": [ 2.45, 48.61 ] }
+},
+{
+	"type": "Feature",
+	"properties": {
+	    "size": 20,
+		"name": "LMH-South",
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 315,
+		        "ownership": "LFFF-HP",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 315,
+		        "lowerAlt": 195,
+		        "ownership": "LFFF-UT",
+		        "combine": []
+		    }
+		]
+	},
+	"geometry": { "type": "Point", "coordinates": [ 4.400757874581322, 47.037558909038118 ] }
+},
+{
+	"type": "Feature",
+	"properties": {
+	    "size": 20,
+		"name": "LMH-West",
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 315,
+		        "ownership": "LFFF-HP",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 315,
+		        "lowerAlt": 265,
+		        "ownership": "LFFF-PU",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 265,
+		        "lowerAlt": 195,
+		        "ownership": "LFFF-UP",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 195,
+		        "lowerAlt": 115,
+		        "ownership": "LFFF-S",
+		        "combine": []
+		    }
+		]
+	},
+	"geometry": { "type": "Point", "coordinates": [ 3.516787866388365, 47.213856935054615 ] }
+},
+{
+	"type": "Feature",
+	"properties": {
+	    "size": 20,
+		"name": "LMH-North",
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 315,
+		        "ownership": "LFFF-HP",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 315,
+		        "lowerAlt": 265,
+		        "ownership": "LFFF-PU",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 265,
+		        "lowerAlt": 115,
+		        "ownership": "LFFF-DG",
+		        "combine": []
+		    }
+		]
+	},
+	"geometry": { "type": "Point", "coordinates": [ 3.054448610640141, 47.861867791376717 ] }
+},
+{
+	"type": "Feature",
+	"properties": {
+	    "size": 20,
+		"name": "UJ-West",
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 385,
+		        "ownership": "LFEE-KD",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 385,
+		        "lowerAlt": 195,
+		        "ownership": "LFFF-UJ",
+		        "combine": []
+		    }
+		]
+	},
+	"geometry": { "type": "Point", "coordinates": [ 5.0530577777778, 47.126044722222 ] }
+},
+{
+	"type": "Feature",
+	"properties": {
+	    "size": 15,
+		"name": "UJ-East",
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 355,
+		        "ownership": "LFEE-KD",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 355,
+		        "lowerAlt": 195,
+		        "ownership": "LFFF-UJ",
+		        "combine": []
+		    }
+		]
+	},
+	"geometry": { "type": "Point", "coordinates": [ 5.6324911111111, 47.412085833333 ] }
+},
+{
+	"type": "Feature",
+	"properties": {
+	    "size": 20,
+		"name": "TL",
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 265,
+		        "ownership": "LFEE-UF",
+		        "prefixCallsign": "PAR_",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 265,
+		        "lowerAlt": 115,
+		        "ownership": "LFFF-TL",
+		        "combine": []
+		    }
+		]
+	},
+	"geometry": { "type": "Point", "coordinates": [ 4.585915769805568, 48.592087653538563 ] }
+},
+{
+	"type": "Feature",
+	"properties": {
+	    "size": 20,
+		"name": "AORS",
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 345,
+		        "ownership": "LFEE-KD",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 345,
+		        "lowerAlt": 115,
+		        "ownership": "LFFF-AO",
+		        "combine": []
+		    }
+		]
+	},
+	"geometry": { "type": "Point", "coordinates": [ 3.9532358333333, 48.1032675 ] }
+},
+{
+	"type": "Feature",
+	"properties": {
+	    "size": 12,
+		"name": "AORS2",
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 345,
+		        "ownership": "LFEE-KD",
+		        "prefixCallsign": "PAR_",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 345,
+		        "lowerAlt": 195,
+		        "ownership": "LFFF-AO",
+		        "combine": []
+		    }
+		]
+	},
+	"geometry": { "type": "Point", "coordinates": [ 4.9160833333333, 47.77 ] }
+},
+{
+	"type": "Feature",
+	"properties": {
+	    "size": 20,
+		"name": "TNTB",
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 265,
+		        "ownership": "LFEE-UN",
+		        "prefixCallsign": "PAR_",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 265,
+		        "lowerAlt": 115,
+		        "ownership": "LFFF-TN",
+		        "combine": []
+		    }
+		]
+	},
+	"geometry": { "type": "Point", "coordinates": [ 2.6080108333333, 49.999865833333 ] }
+},
+{
+	"type": "Feature",
+	"properties": {
+	    "size": 20,
+		"name": "DG-South",
+		"layers": [
+		    {
+		        "upperAlt": 265,
+		        "lowerAlt": 115,
+		        "ownership": "LFFF-DG",
+		        "combine": []
+		    }
+		]
+	},
+	"geometry": { "type": "Point", "coordinates": [ 2.18767919451196, 47.723048869186769 ] }
+},
+{
+    "type": "Feature",
+    "properties": {
+        "name": "XR",
+        "size": 20,
+        "combine": ["TE-AP"],
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 315,
+		        "ownership": "LFEE-XR"
+		    }
+		]
+    },
+    "geometry": { "type": "Point", "coordinates": [ 4.612238789717392, 49.34464524439025 ] } },
+{
+    "type": "Feature",
+    "properties": {
+        "name": "UR",
+        "size": 20,
+        "combine": ["TE-West"],
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 265,
+		        "ownership": "LFEE-UR",
+		        "combine": []
+		    }
+		]
+    },
+    "geometry": { "type": "Point", "coordinates": [ 3.378593061899366, 49.464057507644419 ] } },
+{
+    "type": "Feature",
+    "properties": {
+        "name": "UE",
+        "size": 20,
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 195,
+		        "ownership": "LFEE-UE",
+		        "combine": []
+		    }
+		]
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.597081649028061, 48.606519441320806 ] } },
+{
+    "type": "Feature",
+    "properties": {
+        "name": "UH",
+        "size": 20,
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 195,
+		        "ownership": "LFEE-UH",
+		        "combine": []
+		    }
+		]
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.433515390055321, 47.583904503023021 ] } },
+{
+    "type": "Feature",
+    "properties": {
+        "name": "UB",
+        "size": 20,
+        "combine": ["TNTB"],
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 265,
+		        "ownership": "LFEE-UE",
+		        "combine": []
+		    }
+		]
+    },
+    "geometry": { "type": "Point", "coordinates": [ 2.553405073924051, 50.545028743445613 ] } },
+{
+    "type": "Feature",
+    "properties": {
+        "name": "UN",
+        "size": 20,
+        "combine": ["TNTB"],
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 265,
+		        "ownership": "LFEE-UN",
+		        "combine": []
+		    }
+		]
+    },
+    "geometry": { "type": "Point", "coordinates": [ 2.238965979133061, 49.729476296618003 ] } },
+{
+    "type": "Feature",
+    "properties": {
+        "name": "LFEE_Deleg_FF",
+        "size": 14,
+        "combine": ["TNTB"],
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 195,
+		        "ownership": "LFEE-UB",
+		        "combine": []
+		    }
+		]
+    },
+    "geometry": { "type": "Point", "coordinates": [ 1.909810474162684, 50.874821914483562 ] } },
+{
+    "type": "Feature",
+    "properties": {
+        "name": "UF1",
+        "size": 20,
+        "combine": ["TL"],
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 265,
+		        "ownership": "LFEE-UF",
+		        "combine": []
+		    }
+		]
+    },
+    "geometry": { "type": "Point", "coordinates": [ 4.731675556358186, 48.471550618216462 ] } },
+{
+    "type": "Feature",
+    "properties": {
+        "name": "UF2",
+        "size": 20,
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 195,
+		        "ownership": "LFEE-UF",
+		        "combine": []
+		    }
+		]
+    },
+    "geometry": { "type": "Point", "coordinates": [ 5.416618819430338, 47.992379650262762 ] } },
+{
+    "type": "Feature",
+    "properties": {
+        "name": "UE-LUX",
+        "size": 20,
+		"layers": [
+		    {
+		        "upperAlt": 245,
+		        "lowerAlt": 195,
+		        "ownership": "LFEE-UE",
+		        "combine": []
+		    }
+		]
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.263103299454128, 49.275006352814266 ] } },
+{
+    "type": "Feature",
+    "properties": {
+        "name": "LFBB-X",
+        "size": 20,
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 195,
+		        "ownership": "LFBB-X",
+		        "combine": []
+		    }
+		]
+    },
+    "geometry": { "type": "Point", "coordinates": [ 1.420001436823757, 44.658526342947845 ] } },
+{
+    "type": "Feature",
+    "properties": {
+        "name": "LFBB-N",
+        "size": 20,
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 195,
+		        "ownership": "LFBB-N",
+		        "combine": []
+		    }
+		]
+    },
+    "geometry": { "type": "Point", "coordinates": [ 1.172054100711323, 43.181315872669934 ] } },
+{
+    "type": "Feature",
+    "properties": {
+        "name": "LFBB-Z",
+        "size": 20,
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 195,
+		        "ownership": "LFBB-Z",
+		        "combine": []
+		    }
+		]
+    },
+    "geometry": { "type": "Point", "coordinates": [ -0.715062615126799, 44.417312462945269 ] } },
+{
+    "type": "Feature",
+    "properties": {
+        "name": "LFBB-H",
+        "size": 20,
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 195,
+		        "ownership": "LFBB-H",
+		        "combine": []
+		    }
+		]
+    },
+    "geometry": { "type": "Point", "coordinates": [ 3.072921483472262, 43.944073589192179 ] } },
+{
+    "type": "Feature",
+    "properties": {
+        "name": "LFBB-T",
+        "size": 20,
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 195,
+		        "ownership": "LFBB-T",
+		        "combine": []
+		    }
+		]
+    },
+    "geometry": { "type": "Point", "coordinates": [ 3.434272623897399, 45.481977320729705 ] } },
+{
+    "type": "Feature",
+    "properties": {
+        "name": "LFBB-P2",
+        "size": 20,
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 195,
+		        "ownership": "LFBB-P",
+		        "combine": []
+		    }
+		]
+    },
+    "geometry": { "type": "Point", "coordinates": [ 2.755321722464894, 46.880392059543951 ] } },
+{
+    "type": "Feature",
+    "properties": {
+        "name": "LFBB-L",
+        "size": 20,
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 195,
+		        "ownership": "LFBB-L",
+		        "combine": []
+		    }
+		]
+    },
+    "geometry": { "type": "Point", "coordinates": [ 1.294222491479777, 45.721164385393024 ] } },
+{
+    "type": "Feature",
+    "properties": {
+        "name": "LFBB-R",
+        "size": 20,
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 195,
+		        "ownership": "LFBB-R",
+		        "combine": []
+		    }
+		]
+    },
+    "geometry": { "type": "Point", "coordinates": [ 0.263459554951875, 45.624784797334982 ] } },
+{
+    "type": "Feature",
+    "properties": {
+        "name": "LFBB-P1",
+        "size": 20,
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 265,
+		        "ownership": "LFBB-P",
+		        "combine": []
+		    }
+		]
+    },
+    "geometry": { "type": "Point", "coordinates": [ 2.310134605362495, 47.697684229798128 ] } }
+
+]
+}

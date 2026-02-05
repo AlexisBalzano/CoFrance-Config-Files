@@ -1,0 +1,24 @@
+{
+  "LFFF": [
+    "Carte_Trajectoires_UIR",
+    "Carte_Trajectoires_FIR"
+  ],
+  
+  "LFEE": [
+    "Carte_Trajectoires_UIR"
+  ],
+
+  "LFBB": [
+    "Carte_Trajectoires_UIR"
+  ],
+
+  "LFPG": [
+    "Carte_WL",
+    "Carte_EL",
+    "0_Fond_EGA"
+  ],
+
+  "LFXX": [
+    "Coastlines"
+  ]
+}
