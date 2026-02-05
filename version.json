@@ -1,7 +1,6 @@
 {
 	"plugin_version": "2.0.1",
 	"CoFrance.toml_version": "1.0.0",
-	"CoFrance_Preference.toml_version": "1.0.0",
 	"manifest.json_version": "1.0.0",
 	"sector_ownership.json_version": "1.0.0",
 	"sector_levels.geojson_version": "1.0.0",
