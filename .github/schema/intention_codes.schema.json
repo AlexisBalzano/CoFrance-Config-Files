@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Predefined Holds",
+  "description": "Schema for intention_codes.json",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "Schema identifier (instance may include this)"
+    },
+    "version": {
+      "type": "string",
+      "description": "Version of the intention codes configuration",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    }
+  },
+  "additionalProperties": {
+    "type": "object",
+    "description": "Object containing intention code categories. Each category is an object with named intention codes. Each intention code object MUST include either a 'waypoint' array (3 or 5 chars items) or a 'destination' array (4-char items), but not both.",
+    "properties": {
+        "arrivals": {
+            "type": "array",
+            "description": "Array of arrival codes",
+            "items": {
+                "type": "string",
+                "pattern": "^[A-Z]{4}$"
+            }
+        },
+        "customCodes": {
+            "type": "object",
+            "description": "Object containing custom intention codes.",
+            "additionalProperties": {
+                "type": "object",
+                "oneOf": [
+                    {
+                        "required": ["waypoint"],
+                        "properties": {
+                            "waypoint": {
+                                "type": "array",
+                                "description": "Array of waypoints associated with this intention code (each item 3 or 5 uppercase letters)",
+                                "items": {
+                                    "type": "string",
+                                    "pattern": "^(?:[A-Z]{3}|[A-Z]{5})$"
+                                }
+                            }
+                        },
+                        "additionalProperties": false
+                    },
+                    {
+                        "required": ["destination"],
+                        "properties": {
+                            "destination": {
+                                "type": "array",
+                                "description": "Array of destination airports associated with this intention code (each item 4 uppercase letters)",
+                                "items": {
+                                    "type": "string",
+                                    "pattern": "^[A-Z]{4}$"
+                                }
+                            }
+                        },
+                        "additionalProperties": false
+                    }
+                ]
+            }
+        }
+    }
+  }
+}

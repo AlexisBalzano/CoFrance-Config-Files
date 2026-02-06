@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Sector ownership",
+  "description": "Schema for maps/sector_ownership.json: top-level version and uppercase sector keys mapping to arrays of uppercase owner identifiers",
+  "type": "object",
+  "properties": {
+    "$schema": { "type": "string", "description": "Optional $schema pointer present in instances" },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Version of the sector ownership file"
+    }
+  },
+  "patternProperties": {
+    "^[A-Z0-9-]+$": {
+      "type": "array",
+      "description": "Array of owner identifiers for the named sector (keys must be uppercase, may contain digits and dashes)",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z0-9_]+$",
+        "description": "Uppercase owner identifier (e.g. 'LFBB_CTR')"
+      },
+      "minItems": 1
+    }
+  },
+  "additionalProperties": false,
+  "required": ["version"]
+}

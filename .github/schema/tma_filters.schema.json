@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TMA Filters GeoJSON",
+  "description": "Schema for tma_filters.geojson produced by CoFrance (FeatureCollection of TMA/polygon filters)",
+  "type": "object",
+  "properties": {
+    "type": {
+      "type": "string",
+      "const": "FeatureCollection"
+    },
+    "name": { "type": "string" },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "crs": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string" },
+        "properties": {
+          "type": "object",
+          "properties": {
+            "name": { "type": "string" }
+          },
+          "required": ["name"]
+        }
+      },
+      "required": ["type", "properties"],
+      "additionalProperties": false
+    },
+    "features": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "type": { "type": "string", "const": "Feature" },
+          "properties": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "name": { "type": "string" },
+              "upper_altitude": { "type": "number" },
+              "lower_altitude": { "type": "number" },
+              "floor_altitude": { "type": "number" },
+              "destination_airports": {
+                "type": "array",
+                "items": { "type": "string", "pattern": "^[A-Z*]{4}$" }
+              },
+              "origin_airports": {
+                "type": "array",
+                "items": { "type": "string", "pattern": "^[A-Z*]{4}$" }
+              }
+            },
+            "required": ["name", "upper_altitude", "lower_altitude" ]
+          },
+          "geometry": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "type": { "type": "string", "const": "MultiPoint" },
+              "coordinates": {
+                "type": "array",
+                "items": {
+                  "type": "array",
+                  "minItems": 2,
+                  "maxItems": 2,
+                  "items": { "type": "number" }
+                }
+              }
+            },
+            "required": ["type", "coordinates"]
+          }
+        },
+        "required": ["type", "properties", "geometry"]
+      }
+    }
+  },
+  "required": ["type", "features"],
+  "additionalProperties": true
+}

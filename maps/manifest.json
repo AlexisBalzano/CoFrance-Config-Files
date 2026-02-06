@@ -1,4 +1,5 @@
 {
+  "$schema": "../.github/schema/manifest.schema.json",
   "version": "1.0.0",
   "LFFF": [
     "Maps_UIR"

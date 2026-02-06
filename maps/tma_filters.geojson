@@ -1,4 +1,5 @@
 {
+"$schema": "../.github/schema/tma_filters.schema.json",
 "type": "FeatureCollection",
 "name": "pintade_aoi",
 "version": "1.0.0",

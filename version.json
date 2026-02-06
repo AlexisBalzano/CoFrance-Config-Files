@@ -1,4 +1,5 @@
 {
+	"$schema": "./.github/schema/version.schema.json",
 	"plugin_version": "2.0.0",
 	"CoFrance.toml_version": "1.0.0",
 	"manifest.json_version": "1.0.0",

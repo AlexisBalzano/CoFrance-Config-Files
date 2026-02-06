@@ -1,0 +1,63 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Version Schema",
+    "type": "object",
+    "required": [
+        "$schema",
+        "plugin_version",
+        "CoFrance.toml_version",
+        "manifest.json_version",
+        "sector_ownership.json_version",
+        "sector_levels.geojson_version",
+        "tma_filters.geojson_version",
+        "monitoring_zones.geojson_version",
+        "tag_formats.json_version",
+        "predefined_holds.json_version",
+        "intention_codes.json_version"
+    ],
+    "properties": {
+        "$schema": {
+            "type": "string"
+        },
+        "plugin_version": {
+            "type": "string",
+            "pattern": "^\\d+\\.\\d+\\.\\d+$"
+        },
+        "CoFrance.toml_version": {
+            "type": "string",
+            "pattern": "^\\d+\\.\\d+\\.\\d+$"
+        },
+        "manifest.json_version": {
+            "type": "string",
+            "pattern": "^\\d+\\.\\d+\\.\\d+$"
+        },
+        "sector_ownership.json_version": {
+            "type": "string",
+            "pattern": "^\\d+\\.\\d+\\.\\d+$"
+        },
+        "sector_levels.geojson_version": {
+            "type": "string",
+            "pattern": "^\\d+\\.\\d+\\.\\d+$"
+        },
+        "tma_filters.geojson_version": {
+            "type": "string",
+            "pattern": "^\\d+\\.\\d+\\.\\d+$"
+        },
+        "monitoring_zones.geojson_version": {
+            "type": "string",
+            "pattern": "^\\d+\\.\\d+\\.\\d+$"
+        },
+        "tag_formats.json_version": {
+            "type": "string",
+            "pattern": "^\\d+\\.\\d+\\.\\d+$"
+        },
+        "predefined_holds.json_version": {
+            "type": "string",
+            "pattern": "^\\d+\\.\\d+\\.\\d+$"
+        },
+        "intention_codes.json_version": {
+            "type": "string",
+            "pattern": "^\\d+\\.\\d+\\.\\d+$"
+        }
+    }
+}

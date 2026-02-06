@@ -1,0 +1,299 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Tag formats",
+  "description": "Schema for tag_formats.json",
+  "type": "object",
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Version of the tag format schema"
+    },
+    "tag_formats": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Human-readable name for the format"
+          },
+          "rules": {
+            "type": "array",
+            "description": "List of rules for this format",
+            "items": {
+              "type": "object",
+              "additionalProperties": true,
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "description": "Rule name"
+                },
+                "filtered": {
+                  "type": "boolean",
+                  "description": "If present, controls filter override (negated in code)"
+                },
+                "conditions": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "isArrival": { "type": "boolean" },
+                    "isDeparture": { "type": "boolean" },
+                    "isIFR": { "type": "boolean" },
+                    "isVFR": { "type": "boolean" }
+                  }
+                },
+                "arrival_airports": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^[A-Z*]{4}$"
+                  },
+                  "description": "4 characters; uppercase A-Z or '*' wildcards allowed (e.g. 'EGLL', 'LF**', '*G*L')"
+                },
+                "departure_airports": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^[A-Z*]{4}$"
+                  },
+                  "description": "4 characters; uppercase A-Z or '*' wildcards allowed"
+                },
+                "airports": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^[A-Z*]{4}$"
+                  },
+                  "description": "Shorthand for both arrival and departure airports; each entry must be 4 chars uppercase A-Z or '*'"
+                },
+                "arrival_runways": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^(0[1-9]|[1-2][0-9]|3[0-6])[LR]?$"
+                  },
+                  "description": "Runway number two digits (01-36) optionally followed by 'L' or 'R' (e.g. '08', '09L')"
+                },
+                "departure_runways": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^(0[1-9]|[1-2][0-9]|3[0-6])[LR]?$"
+                  },
+                  "description": "Runway number two digits (01-36) optionally followed by 'L' or 'R'"
+                },
+                "runways": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^(0[1-9]|[1-2][0-9]|3[0-6])[LR]?$"
+                  },
+                  "description": "Shorthand for both arrival and departure runways; entries must be NN or NNL/NNR"
+                },
+                "squawk": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "Squawk codes or patterns; '*' wildcard supported",
+                  "pattern": "^[0-7*]{4}$"
+                },
+                "style": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "foreground_color": {
+                      "description": "Parsed by ParseColor; accept string (e.g. '#RRGGBB') or integer",
+                      "oneOf": [{ "type": "string" }, { "type": "number" }]
+                    },
+                    "background_color": {
+                      "oneOf": [{ "type": "string" }, { "type": "number" }]
+                    },
+                    "conflict_group_color": {
+                      "oneOf": [{ "type": "string" }, { "type": "number" }]
+                    },
+                    "field_highlight_color": {
+                      "oneOf": [{ "type": "string" }, { "type": "number" }]
+                    },
+                    "hovered_field_color": {
+                      "oneOf": [{ "type": "string" }, { "type": "number" }]
+                    },
+                    "track_symbol": {
+                      "description": "Parsed by ParseTrackSymbol; may be string or object depending on implementation",
+                      "oneOf": [{ "type": "string" }, { "type": "object" }],
+                      "additionalProperties": false,
+                        "properties": {
+                            "circle": { "type": "string" },
+                            "triangle": { "type": "string" },
+                            "invertedtriangle": { "type": "string" },
+                            "diamond": { "type": "string" },
+                            "square": { "type": "string" }
+                        }
+                    },
+                    "track_symbol_fill": { "type": "boolean" },
+                    "history_trail_line": { "type": "boolean" },
+                    "track_symbol_subtext": {
+                        "type": "string",
+                        "pattern": "^[A-Z0-9]{0,4}$"
+                    },
+                    "draw_detailed_background": { "type": "boolean" },
+                    "draw_hovered_field": { "type": "boolean" }
+                  }
+                },
+                "taglayouts": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "tag_layout": {
+                      "type": "array",
+                      "items": {
+                        "oneOf": [
+                          {
+                            "type": "string",
+                            "enum": [
+                              "\n","vspace","align_right","align_center","stca","tct","lost","notification","coordination","sequence",
+                              "gs","scratchpad","vz","atyp","hold","eat","contact_flag","callsign","comms","sector","rfl","group",
+                              "afl","tendency","cfl","wpt","ahdg","xfl","copx","intention","aspd","cpdlc_flag","cpdlc_rqst","cpdlc_rqst_number",
+                              "modeshdg","modesspd","modesmach","modessfl","adep","ades","star","trans","sid","arrrwy","deprwy","cr",
+                              "nsfreq","optext","traj","info","id","misc","company","rvsm","radio","rnav","tracknbr","cat",
+                              "currentsquawk","assignedsquawk","routewaypoints","routerfl","routeecl","afk","hfl","gndstate","clrflag","lostackflag"
+                            ]
+                          },
+                          { "type": "object" }
+                        ]
+                      },
+                      "description": "Parsed with ParseTagLayout; allow only known layout token strings or layout objects"
+                    },
+                    "minimised_layout": {
+                      "type": "array",
+                      "items": {
+                        "oneOf": [
+                          {
+                            "type": "string",
+                            "enum": [
+                              "\n","vspace","align_right","align_center","stca","tct","lost","notification","coordination","sequence",
+                              "gs","scratchpad","vz","atyp","hold","eat","contact_flag","callsign","comms","sector","rfl","group",
+                              "afl","tendency","cfl","wpt","ahdg","xfl","copx","intention","aspd","cpdlc_flag","cpdlc_rqst","cpdlc_rqst_number",
+                              "modeshdg","modesspd","modesmach","modessfl","adep","ades","star","trans","sid","arrrwy","deprwy","cr",
+                              "nsfreq","optext","traj","info","id","misc","company","rvsm","radio","rnav","tracknbr","cat",
+                              "currentsquawk","assignedsquawk","routewaypoints","routerfl","routeecl","afk","hfl","gndstate","clrflag","lostackflag"
+                            ]
+                          },
+                          { "type": "object" }
+                        ]
+                      }
+                    },
+                    "extended_layout": {
+                      "type": "array",
+                      "items": {
+                        "oneOf": [
+                          {
+                            "type": "string",
+                            "enum": [
+                              "\n","vspace","align_right","align_center","stca","tct","lost","notification","coordination","sequence",
+                              "gs","scratchpad","vz","atyp","hold","eat","contact_flag","callsign","comms","sector","rfl","group",
+                              "afl","tendency","cfl","wpt","ahdg","xfl","copx","intention","aspd","cpdlc_flag","cpdlc_rqst","cpdlc_rqst_number",
+                              "modeshdg","modesspd","modesmach","modessfl","adep","ades","star","trans","sid","arrrwy","deprwy","cr",
+                              "nsfreq","optext","traj","info","id","misc","company","rvsm","radio","rnav","tracknbr","cat",
+                              "currentsquawk","assignedsquawk","routewaypoints","routerfl","routeecl","afk","hfl","gndstate","clrflag","lostackflag"
+                            ]
+                          },
+                          { "type": "object" }
+                        ]
+                      }
+                    },
+                    "extended_tab_layouts": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "tab_traj": {
+                          "type": "array",
+                          "items": {
+                            "oneOf": [
+                              {
+                                "type": "string",
+                                "enum": [
+                                  "\n","vspace","align_right","align_center","stca","tct","lost","notification","coordination","sequence",
+                                  "gs","scratchpad","vz","atyp","hold","eat","contact_flag","callsign","comms","sector","rfl","group",
+                                  "afl","tendency","cfl","wpt","ahdg","xfl","copx","intention","aspd","cpdlc_flag","cpdlc_rqst","cpdlc_rqst_number",
+                                  "modeshdg","modesspd","modesmach","modessfl","adep","ades","star","trans","sid","arrrwy","deprwy","cr",
+                                  "nsfreq","optext","traj","info","id","misc","company","rvsm","radio","rnav","tracknbr","cat",
+                                  "currentsquawk","assignedsquawk","routewaypoints","routerfl","routeecl","afk","hfl","gndstate","clrflag","lostackflag"
+                                ]
+                              },
+                              { "type": "object" }
+                            ]
+                          }
+                        },
+                        "tab_info": {
+                          "type": "array",
+                          "items": {
+                            "oneOf": [
+                              {
+                                "type": "string",
+                                "enum": [
+                                  "\n","vspace","align_right","align_center","stca","tct","lost","notification","coordination","sequence",
+                                  "gs","scratchpad","vz","atyp","hold","eat","contact_flag","callsign","comms","sector","rfl","group",
+                                  "afl","tendency","cfl","wpt","ahdg","xfl","copx","intention","aspd","cpdlc_flag","cpdlc_rqst","cpdlc_rqst_number",
+                                  "modeshdg","modesspd","modesmach","modessfl","adep","ades","star","trans","sid","arrrwy","deprwy","cr",
+                                  "nsfreq","optext","traj","info","id","misc","company","rvsm","radio","rnav","tracknbr","cat",
+                                  "currentsquawk","assignedsquawk","routewaypoints","routerfl","routeecl","afk","hfl","gndstate","clrflag","lostackflag"
+                                ]
+                              },
+                              { "type": "object" }
+                            ]
+                          }
+                        },
+                        "tab_id": {
+                          "type": "array",
+                          "items": {
+                            "oneOf": [
+                              {
+                                "type": "string",
+                                "enum": [
+                                  "\n","vspace","align_right","align_center","stca","tct","lost","notification","coordination","sequence",
+                                  "gs","scratchpad","vz","atyp","hold","eat","contact_flag","callsign","comms","sector","rfl","group",
+                                  "afl","tendency","cfl","wpt","ahdg","xfl","copx","intention","aspd","cpdlc_flag","cpdlc_rqst","cpdlc_rqst_number",
+                                  "modeshdg","modesspd","modesmach","modessfl","adep","ades","star","trans","sid","arrrwy","deprwy","cr",
+                                  "nsfreq","optext","traj","info","id","misc","company","rvsm","radio","rnav","tracknbr","cat",
+                                  "currentsquawk","assignedsquawk","routewaypoints","routerfl","routeecl","afk","hfl","gndstate","clrflag","lostackflag"
+                                ]
+                              },
+                              { "type": "object" }
+                            ]
+                          }
+                        },
+                        "tab_misc": {
+                          "type": "array",
+                          "items": {
+                            "oneOf": [
+                              {
+                                "type": "string",
+                                "enum": [
+                                  "\n","vspace","align_right","align_center","stca","tct","lost","notification","coordination","sequence",
+                                  "gs","scratchpad","vz","atyp","hold","eat","contact_flag","callsign","comms","sector","rfl","group",
+                                  "afl","tendency","cfl","wpt","ahdg","xfl","copx","intention","aspd","cpdlc_flag","cpdlc_rqst","cpdlc_rqst_number",
+                                  "modeshdg","modesspd","modesmach","modessfl","adep","ades","star","trans","sid","arrrwy","deprwy","cr",
+                                  "nsfreq","optext","traj","info","id","misc","company","rvsm","radio","rnav","tracknbr","cat",
+                                  "currentsquawk","assignedsquawk","routewaypoints","routerfl","routeecl","afk","hfl","gndstate","clrflag","lostackflag"
+                                ]
+                              },
+                              { "type": "object" }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "required": ["name", "priority"]
+            }
+          }
+        }
+      }
+    }
+  }
+}

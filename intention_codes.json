@@ -1,4 +1,5 @@
 {
+  "$schema": "./.github/schema/intention_codes.schema.json",
   "version": "1.0.0",
   "LFEE_": {
     "arrivals": [
@@ -26,104 +27,64 @@
     ],
     "customCodes": {
       "ABNUR": {
-        "waypoint": [
-          "ABNUR"
-        ]
+        "waypoint": ["ABNUR"]
       },
       "ADUTO": {
-        "waypoint": [
-          "ADUTO"
-        ]
+        "waypoint": ["ADUTO"]
       },
       "AKITO": {
-        "waypoint": [
-          "AKITO"
-        ]
+        "waypoint": ["AKITO"]
       },
       "AMODO": {
-        "waypoint": [
-          "AMODO"
-        ]
+        "waypoint": ["AMODO"]
       },
       "ARDEN": {
-        "waypoint": [
-          "ARDEN"
-        ]
+        "waypoint": ["ARDEN"]
       },
       "BEGAR": {
-        "waypoint": [
-          "BEGAR"
-        ]
+        "waypoint": ["BEGAR"]
       },
       "BELOB": {
-        "waypoint": [
-          "BELOB"
-        ]
+        "waypoint": ["BELOB"]
       },
       "DEVDI": {
-        "waypoint": [
-          "DEVDI"
-        ]
+        "waypoint": ["DEVDI"]
       },
       "FERDI": {
-        "waypoint": [
-          "FERDI"
-        ]
+        "waypoint": ["FERDI"]
       },
       "KESAX": {
-        "waypoint": [
-          "KESAX"
-        ]
+        "waypoint": ["KESAX"]
       },
       "LIMGO": {
-        "waypoint": [
-          "LIMGO"
-        ]
+        "waypoint": ["LIMGO"]
       },
       "LUPEN": {
-        "waypoint": [
-          "LUPEN"
-        ]
+        "waypoint": ["LUPEN"]
       },
       "MOROK": {
-        "waypoint": [
-          "MOROK"
-        ]
+        "waypoint": ["MOROK"]
       },
       "PON": {
-        "waypoint": [
-          "PON"
-        ]
+        "waypoint": ["PON"]
       },
       "RESMI": {
-        "waypoint": [
-          "RESMI"
-        ]
+        "waypoint": ["RESMI"]
       },
       "SOSUN": {
-        "waypoint": [
-          "SOSUN"
-        ]
+        "waypoint": ["SOSUN"]
       },
       "TRA": {
-        "waypoint": [
-          "TRA"
-        ]
+        "waypoint": ["TRA"]
       },
       "VALEK": {
-        "waypoint": [
-          "VALEK"
-        ]
+        "waypoint": ["VALEK"]
       },
       "VESAN": {
-        "waypoint": [
-          "VESAN"
-        ]
+        "waypoint": ["VESAN"]
       },
       "DIK": {
-        "waypoint": [
-          "DIK"
-        ]
+        "waypoint": ["DIK"]
       }
     }
   },
@@ -151,140 +112,82 @@
     ],
     "customCodes": {
       "ADK": {
-        "waypoint": [
-          "ADEKA"
-        ]
+        "waypoint": ["ADEKA"]
       },
       "BUB": {
-        "waypoint": [
-          "BUBLI"
-        ]
+        "waypoint": ["BUBLI"]
       },
       "BVA": {
-        "destination": [
-          "LFOB"
-        ]
+        "destination": ["LFOB"]
       },
       "CDG": {
-        "destination": [
-          "LFPG"
-        ]
+        "destination": ["LFPG"]
       },
       "EKS": {
-        "waypoint": [
-          "EKRAS"
-        ]
+        "waypoint": ["EKRAS"]
       },
       "GUE": {
-        "waypoint": [
-          "GUERE"
-        ]
+        "waypoint": ["GUERE"]
       },
       "KOT": {
-        "waypoint": [
-          "KOTIS"
-        ]
+        "waypoint": ["KOTIS"]
       },
       "KSX": {
-        "waypoint": [
-          "KESAX",
-          "KUNAV"
-        ]
+        "waypoint": ["KESAX", "KUNAV"]
       },
       "LAM": {
-        "waypoint": [
-          "LAMUT"
-        ]
+        "waypoint": ["LAMUT"]
       },
       "LAS": {
-        "waypoint": [
-          "LASIV"
-        ]
+        "waypoint": ["LASIV"]
       },
       "LBG": {
-        "destination": [
-          "LFPB"
-        ]
+        "destination": ["LFPB"]
       },
       "LMG": {
-        "waypoint": [
-          "LMG"
-        ]
+        "waypoint": ["LMG"]
       },
       "LUM": {
-        "waypoint": [
-          "LUMIL"
-        ]
+        "waypoint": ["LUMIL"]
       },
       "MMD": {
-        "waypoint": [
-          "MMD"
-        ]
+        "waypoint": ["MMD"]
       },
       "NXS": {
-        "waypoint": [
-          "DIDAK",
-          "PEPON",
-          "TERPO"
-        ]
+        "waypoint": ["DIDAK", "PEPON", "TERPO"]
       },
       "ODB": {
-        "waypoint": [
-          "OEDBU",
-          "OGULO"
-        ]
+        "waypoint": ["OEDBU", "OGULO"]
       },
       "ORY": {
-        "destination": [
-          "LFPO"
-        ]
+        "destination": ["LFPO"]
       },
       "PIX": {
-        "waypoint": [
-          "PIXIS"
-        ]
+        "waypoint": ["PIXIS"]
       },
       "PVN": {
-        "destination": [
-          "LFPV",
-          "LFPN"
-        ]
+        "destination": ["LFPV", "LFPN"]
       },
       "RNX": {
-        "waypoint": [
-          "RANUX"
-        ]
+        "waypoint": ["RANUX"]
       },
       "ROB": {
-        "waypoint": [
-          "ROBAL"
-        ]
+        "waypoint": ["ROBAL"]
       },
       "RTK": {
-        "waypoint": [
-          "RATUK",
-          "SOVAT"
-        ]
+        "waypoint": ["RATUK", "SOVAT"]
       },
       "SEN": {
-        "waypoint": [
-          "SENLO"
-        ]
+        "waypoint": ["SENLO"]
       },
       "SSN": {
-        "waypoint": [
-          "SOSUN"
-        ]
+        "waypoint": ["SOSUN"]
       },
       "VEK": {
-        "waypoint": [
-          "VEKIN"
-        ]
+        "waypoint": ["VEKIN"]
       },
       "VLK": {
-        "waypoint": [
-          "VALKU"
-        ]
+        "waypoint": ["VALKU"]
       }
     }
   },
@@ -314,104 +217,64 @@
     ],
     "customCodes": {
       "ABNUR": {
-        "waypoint": [
-          "ABNUR"
-        ]
+        "waypoint": ["ABNUR"]
       },
       "ADUTO": {
-        "waypoint": [
-          "ADUTO"
-        ]
+        "waypoint": ["ADUTO"]
       },
       "AKITO": {
-        "waypoint": [
-          "AKITO"
-        ]
+        "waypoint": ["AKITO"]
       },
       "AMODO": {
-        "waypoint": [
-          "AMODO"
-        ]
+        "waypoint": ["AMODO"]
       },
       "ARDEN": {
-        "waypoint": [
-          "ARDEN"
-        ]
+        "waypoint": ["ARDEN"]
       },
       "BEGAR": {
-        "waypoint": [
-          "BEGAR"
-        ]
+        "waypoint": ["BEGAR"]
       },
       "BELOB": {
-        "waypoint": [
-          "BELOB"
-        ]
+        "waypoint": ["BELOB"]
       },
       "DEVDI": {
-        "waypoint": [
-          "DEVDI"
-        ]
+        "waypoint": ["DEVDI"]
       },
       "DIK": {
-        "waypoint": [
-          "DIK"
-        ]
+        "waypoint": ["DIK"]
       },
       "FERDI": {
-        "waypoint": [
-          "FERDI"
-        ]
+        "waypoint": ["FERDI"]
       },
       "KESAX": {
-        "waypoint": [
-          "KESAX"
-        ]
+        "waypoint": ["KESAX"]
       },
       "LIMGO": {
-        "waypoint": [
-          "LIMGO"
-        ]
+        "waypoint": ["LIMGO"]
       },
       "LUPEN": {
-        "waypoint": [
-          "LUPEN"
-        ]
+        "waypoint": ["LUPEN"]
       },
       "MOROK": {
-        "waypoint": [
-          "MOROK"
-        ]
+        "waypoint": ["MOROK"]
       },
       "PON": {
-        "waypoint": [
-          "PON"
-        ]
+        "waypoint": ["PON"]
       },
       "RESMI": {
-        "waypoint": [
-          "RESMI"
-        ]
+        "waypoint": ["RESMI"]
       },
       "SOSUN": {
-        "waypoint": [
-          "SOSUN"
-        ]
+        "waypoint": ["SOSUN"]
       },
       "TRA": {
-        "waypoint": [
-          "TRA"
-        ]
+        "waypoint": ["TRA"]
       },
       "VALEK": {
-        "waypoint": [
-          "VALEK"
-        ]
+        "waypoint": ["VALEK"]
       },
       "VESAN": {
-        "waypoint": [
-          "VESAN"
-        ]
+        "waypoint": ["VESAN"]
       }
     }
   }

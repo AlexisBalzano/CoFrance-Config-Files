@@ -1,4 +1,5 @@
 {
+"$schema": "../.github/schema/sector_levels.schema.json",
 "type": "FeatureCollection",
 "name": "sector_levels",
 "version": "1.0.0",

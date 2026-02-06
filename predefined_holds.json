@@ -1,4 +1,5 @@
 {
+  "$schema": "./.github/schema/predefined_holds.schema.json",
   "version": "1.0.0",
   "PAR_": [
     {

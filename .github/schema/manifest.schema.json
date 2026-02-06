@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Manifest schema",
+  "description": "Schema for manifest.json",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "Schema identifier (instance may include this)"
+    },
+    "version": {
+      "type": "string",
+      "description": "Version of the manifest configuration",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    }
+  },
+  "required": ["version"],
+  "additionalProperties": {
+    "type": "array",
+    "description": "Array of strings representing the relative paths of configuration files included in this manifest (e.g. 'maps/sector_ownership.json')",
+    "items": {
+      "type": "string",
+      "description": "Relative path to a configuration file (must be in a subdirectory and end with .json)"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Sector Levels GeoJSON",
+  "description": "Schema for maps/sector_levels.geojson (FeatureCollection of sector level points and layers)",
+  "type": "object",
+  "properties": {
+    "type": { "type": "string", "const": "FeatureCollection" },
+    "name": { "type": "string" },
+    "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+    "crs": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string" },
+        "properties": {
+          "type": "object",
+          "properties": { "name": { "type": "string" } },
+          "required": ["name"]
+        }
+      },
+      "required": ["type", "properties"],
+      "additionalProperties": true
+    },
+    "features": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "type": { "type": "string", "const": "Feature" },
+          "properties": {
+            "type": "object",
+            "additionalProperties": true,
+            "properties": {
+              "size": { "type": "number" },
+              "name": { "type": "string" },
+              "combine": {
+                "type": "array",
+                "items": { "type": "string" }
+              },
+              "layers": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "upperAlt": { "type": "number" },
+                    "lowerAlt": { "type": "number" },
+                    "ownership": { "type": "string", "pattern": "^[A-Z0-9-_]+$" },
+                    "prefixCallsign": { "type": "string" },
+                    "combine": {
+                      "type": "array",
+                      "items": { "type": "string" }
+                    }
+                  },
+                  "required": ["upperAlt", "lowerAlt", "ownership"]
+                }
+              }
+            },
+            "required": ["name", "layers"]
+          },
+          "geometry": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "type": { "type": "string", "const": "Point" },
+              "coordinates": {
+                "type": "array",
+                "minItems": 2,
+                "maxItems": 2,
+                "items": { "type": "number" }
+              }
+            },
+            "required": ["type", "coordinates"]
+          }
+        },
+        "required": ["type", "properties", "geometry"]
+      }
+    }
+  },
+  "required": ["type", "features"],
+  "additionalProperties": true
+}
