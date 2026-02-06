@@ -35,8 +35,7 @@
               "uuid": { "type": "string" },
               "type": { "type": "string" },
               "name": { "type": "string" }
-            },
-            "required": ["uuid"]
+            }
           },
           "geometry": {
             "type": "object",
