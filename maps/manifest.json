@@ -1,25 +1,27 @@
 {
   "$schema": "../.github/schema/manifest.schema.json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "LFFF": [
-    "Maps_UIR"
+    "Carte_Trajectoires_UIR",
+    "Carte_Trajectoires_FIR"
   ],
-  
   "LFEE": [
     "Carte_Trajectoires_UIR"
   ],
-
   "LFBB": [
     "Carte_Trajectoires_UIR"
   ],
-
+  "LFRR": [
+    "Carte_Trajectoires_UIR"
+  ],
   "LFPG": [
     "Carte_WL",
     "Carte_EL",
     "0_Fond_EGA"
   ],
-
   "LFXX": [
-    "Coastlines"
+    "Coastlines",
+    "Coastlines_blue",
+    "Coastlines_black"
   ]
 }

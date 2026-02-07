@@ -2,7 +2,7 @@
 "$schema": "../.github/schema/sector_levels.schema.json",
 "type": "FeatureCollection",
 "name": "sector_levels",
-"version": "1.0.0",
+"version": "1.0.1",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
 {
@@ -96,12 +96,14 @@
 		        "upperAlt": 660,
 		        "lowerAlt": 295,
 		        "ownership": "LFRR-QS",
+		        "prefixCallsign": "PAR_",
 		        "combine": []
 		    },
 		    {
 		        "upperAlt": 295,
 		        "lowerAlt": 115,
 		        "ownership": "LFFF-TP",
+		        "prefixCallsign": "PAR_",
 		        "combine": []
 		    }
 		]
@@ -118,12 +120,14 @@
 		        "upperAlt": 660,
 		        "lowerAlt": 295,
 		        "ownership": "LFRR-XS",
+		        "prefixCallsign": "PAR_",
 		        "combine": []
 		    },
 		    {
 		        "upperAlt": 295,
 		        "lowerAlt": 115,
 		        "ownership": "LFFF-TH",
+		        "prefixCallsign": "PAR_",
 		        "combine": []
 		    }
 		]
@@ -141,12 +145,14 @@
 		        "upperAlt": 660,
 		        "lowerAlt": 305,
 		        "ownership": "LFRR-XS",
+		        "prefixCallsign": "PAR_",
 		        "combine": []
 		    },
 		    {
 		        "upperAlt": 305,
 		        "lowerAlt": 115,
 		        "ownership": "LFFF-OG",
+		        "prefixCallsign": "PAR_",
 		        "combine": []
 		    }
 		]
@@ -699,7 +705,381 @@
 		    }
 		]
     },
-    "geometry": { "type": "Point", "coordinates": [ 2.310134605362495, 47.697684229798128 ] } }
+    "geometry": { "type": "Point", "coordinates": [ 2.310134605362495, 47.697684229798128 ] } },
+{
+	"type": "Feature",
+	"properties": {
+		"name": "W",
+		"size": 24,
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 375,
+		        "ownership": "LFRR-WU",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 375,
+		        "lowerAlt": 355,
+		        "ownership": "LFRR-WI",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 355,
+		        "lowerAlt": 0,
+		        "ownership": "LFRR-WS",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    }
+		]
+	},
+	"geometry": { "type": "Point", "coordinates": [ -7.383814086325263, 48.504023143890932 ] } },
+{
+	"type": "Feature",
+	"properties": {
+		"name": "V",
+		"size": 24,
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 375,
+		        "ownership": "LFRR-VU",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 375,
+		        "lowerAlt": 355,
+		        "ownership": "LFRR-VI",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 355,
+		        "lowerAlt": 195,
+		        "ownership": "LFRR-VS",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    }
+		]
+	},
+	"geometry": { "type": "Point", "coordinates": [ -3.927460936844089, 49.244659683060880 ] } },
+{
+	"type": "Feature",
+	"properties": {
+		"name": "M",
+		"size": 15,
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 365,
+		        "ownership": "LFRR-MU",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 365,
+		        "lowerAlt": 345,
+		        "ownership": "LFRR-MI",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 345,
+		        "lowerAlt": 295,
+		        "ownership": "LFRR-MS",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    }
+		]
+	},
+	"geometry": { "type": "Point", "coordinates": [ 1.454160070053285, 49.604371929383972 ] } },
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Q",
+		"size": 15,
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 365,
+		        "ownership": "LFRR-QU",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 365,
+		        "lowerAlt": 345,
+		        "ownership": "LFRR-QI",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 345,
+		        "lowerAlt": 295,
+		        "ownership": "LFRR-QS",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    }
+		]
+	},
+	"geometry": { "type": "Point", "coordinates": [ 0.702399194133624, 49.263269188185730 ] } },
+{
+	"type": "Feature",
+	"properties": {
+		"name": "Z",
+		"size": 24,
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 365,
+		        "ownership": "LFRR-ZU",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 365,
+		        "lowerAlt": 345,
+		        "ownership": "LFRR-ZI",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 345,
+		        "lowerAlt": 295,
+		        "ownership": "LFRR-ZS",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    }
+		]
+	},
+	"geometry": { "type": "Point", "coordinates": [ 1.87203492817635, 48.422147366088089 ] } },
+{
+	"type": "Feature",
+	"properties": {
+		"name": "XS1",
+		"size": 24,
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 365,
+		        "ownership": "LFRR-XU",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 365,
+		        "lowerAlt": 345,
+		        "ownership": "LFRR-XI",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 345,
+		        "lowerAlt": 295,
+		        "ownership": "LFRR-XS",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    }
+		]
+	},
+	"geometry": { "type": "Point", "coordinates": [ 1.128207384204956, 48.193201186283004 ] } },
+{
+	"type": "Feature",
+	"properties": {
+		"name": "XS2",
+		"size": 15,
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 365,
+		        "ownership": "LFRR-XU",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 365,
+		        "lowerAlt": 345,
+		        "ownership": "LFRR-XI",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 345,
+		        "lowerAlt": 305,
+		        "ownership": "LFRR-XS",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    }
+		]
+	},
+	"geometry": { "type": "Point", "coordinates": [ 0.849740988755291, 47.310901906426202 ] } },
+{
+	"type": "Feature",
+	"properties": {
+		"name": "A",
+		"size": 24,
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 365,
+		        "ownership": "LFRR-AU",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 365,
+		        "lowerAlt": 345,
+		        "ownership": "LFRR-AI",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 345,
+		        "lowerAlt": 0,
+		        "ownership": "LFRR-AS",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    }
+		]
+	},
+	"geometry": { "type": "Point", "coordinates": [ -7.786482121564948, 45.555303599881113 ] } },
+{
+	"type": "Feature",
+	"properties": {
+		"name": "G",
+		"size": 24,
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 365,
+		        "ownership": "LFRR-GU",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 365,
+		        "lowerAlt": 345,
+		        "ownership": "LFRR-GI",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 345,
+		        "lowerAlt": 0,
+		        "ownership": "LFRR-GS",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    }
+		]
+	},
+	"geometry": { "type": "Point", "coordinates": [ -3.476554797195971, 44.506224375481436 ] } },
+{
+	"type": "Feature",
+	"properties": {
+		"name": "N",
+		"size": 24,
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 375,
+		        "ownership": "LFRR-NU",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 375,
+		        "lowerAlt": 355,
+		        "ownership": "LFRR-NI",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 355,
+		        "lowerAlt": 325,
+		        "ownership": "LFRR-NF",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 325,
+		        "lowerAlt": 195,
+		        "ownership": "LFRR-NS",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    }
+		]
+	},
+	"geometry": { "type": "Point", "coordinates": [ -1.7906491666667, 46.462795 ] } },
+{
+	"type": "Feature",
+	"properties": {
+		"name": "K",
+		"size": 24,
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 375,
+		        "ownership": "LFRR-KU",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 375,
+		        "lowerAlt": 355,
+		        "ownership": "LFRR-KI",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 355,
+		        "lowerAlt": 195,
+		        "ownership": "LFRR-KS",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    }
+		]
+	},
+	"geometry": { "type": "Point", "coordinates": [ -4.044306170440944, 47.804900893797039 ] } },
+{
+	"type": "Feature",
+	"properties": {
+		"name": "J",
+		"size": 24,
+		"layers": [
+		    {
+		        "upperAlt": 660,
+		        "lowerAlt": 375,
+		        "ownership": "LFRR-JU",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 375,
+		        "lowerAlt": 355,
+		        "ownership": "LFRR-JI",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 355,
+		        "lowerAlt": 325,
+		        "ownership": "LFRR-JF",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    },
+		    {
+		        "upperAlt": 325,
+		        "lowerAlt": 195,
+		        "ownership": "LFRR-JS",
+		        "prefixCallsign": "LFRR_",
+		        "combine": []
+		    }
+		]
+	},
+	"geometry": { "type": "Point", "coordinates": [ -0.523640443527359, 49.590140932473665 ] } }
 
 ]
 }
