@@ -122,15 +122,9 @@
                     },
                     "track_symbol": {
                       "description": "Parsed by ParseTrackSymbol; may be string or object depending on implementation",
-                      "oneOf": [{ "type": "string" }, { "type": "object" }],
-                      "additionalProperties": false,
-                        "properties": {
-                            "circle": { "type": "string" },
-                            "triangle": { "type": "string" },
-                            "invertedtriangle": { "type": "string" },
-                            "diamond": { "type": "string" },
-                            "square": { "type": "string" }
-                        }
+                      "oneOf": [{ 
+                          "enum": ["square","circle","triangle","diamond","cross","invertedtriangle"]
+                      }]
                     },
                     "track_symbol_fill": { "type": "boolean" },
                     "history_trail_line": { "type": "boolean" },
