@@ -15,6 +15,7 @@
           "airports": ["LFPG"],
           "arrival_runways": ["08L", "08R", "26L", "26R"],
           "priority": 1,
+          "filtered": false,
           "style": {
             "track_symbol": "circle",
             "track_symbol_fill": true,
@@ -39,6 +40,7 @@
           "airports": ["LFPG"],
           "arrival_runways": ["09L", "09R", "27L", "27R"],
           "priority": 1,
+          "filtered": false,
           "style": {
             "track_symbol": "circle",
             "track_symbol_fill": true,
@@ -62,6 +64,7 @@
           "conditions": { "isDeparture": true },
           "airports": ["LFPG"],
           "priority": 1,
+          "filtered": false,
           "style": {
             "track_symbol": "circle",
             "track_symbol_fill": true,
@@ -84,6 +87,7 @@
           "name": "O",
           "airports": ["LFPO"],
           "priority": 2,
+          "filtered": false,
           "style": {
             "track_symbol": "circle",
             "track_symbol_fill": true,
@@ -107,6 +111,7 @@
           "conditions": { "isDeparture": true },
           "airports": ["LFPB"],
           "priority": 3,
+          "filtered": false,
           "style": {
             "track_symbol": "circle",
             "track_symbol_fill": true,
@@ -130,6 +135,7 @@
           "conditions": { "isArrival": true },
           "airports": ["LFPB"],
           "priority": 3,
+          "filtered": false,
           "style": {
             "track_symbol": "circle",
             "track_symbol_fill": true,
@@ -152,6 +158,7 @@
           "name": "Z",
           "conditions": { "isVFR": true},
           "priority": 4,
+          "filtered": false,
           "style": {
             "field_highlight_color": "#BDA5D7",
             "hovered_field_color": "#6A6A6A",
@@ -194,6 +201,7 @@
           "conditions": { "isDeparture": true },
           "airports": ["LF**"],
           "priority": 1,
+          "filtered": false,
           "style": {
             "track_symbol": "triangle",
             "track_symbol_fill": false,
@@ -217,6 +225,7 @@
           "conditions": { "isArrival": true },
           "airports": ["LF**"],
           "priority": 1,
+          "filtered": false,
           "style": {
             "track_symbol": "triangle",
             "track_symbol_fill": false,
