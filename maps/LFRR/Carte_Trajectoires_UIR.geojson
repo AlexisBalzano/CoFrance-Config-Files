@@ -1,5 +1,6 @@
 {"type":"FeatureCollection","features":[
 {"type":"Feature","properties":{"fillStyle":{"color":[65,65,65],"opacity":1}},"geometry":{"coordinates":[[[-1.97647,50.00018],[-1.97163,49.98417],[-1.85259,49.58626],[-0.97313,49.51354],[-0.9776,49.54798],[-0.24997,49.92759],[-0.25,50],[-1.97647,50.00018]]],"type":"Polygon"}},
+{"type":"Feature","properties":{"fillStyle":{"color":[87,66,66],"opacity":1},"lineStyle":{"color":[64,64,64],"width":2,"opacity":1,"dashArray":null}},"geometry":{"coordinates":[[[-0.53333,50.49667],[-0.25306,50.22972],[-0.53194,50],[-0.53333,50.49667],[-0.53333,50.49667]]],"type":"Polygon"}},
 {"type":"Feature","properties":{"lineStyle":{"color":[153,98,49],"width":0.26,"opacity":1,"dashArray":null}},"geometry":{"coordinates":[[[-8,45],[-8,48.5]]],"type":"MultiLineString"}},
 {"type":"Feature","properties":{"lineStyle":{"color":[153,98,49],"width":0.26,"opacity":1,"dashArray":null}},"geometry":{"coordinates":[[[-8,45],[-8,48.5]]],"type":"MultiLineString"}},
 {"type":"Feature","properties":{"lineStyle":{"color":[18,18,18],"width":1,"opacity":1,"dashArray":[3,3]}},"geometry":{"coordinates":[[[1.08472,49.09444],[0.09611,50.13778]]],"type":"MultiLineString"}},
@@ -85,7 +86,6 @@
 {"type":"Feature","properties":{"pointStyle":{"type":"x","color":[73,80,70]}},"geometry":{"coordinates":[[-6.64999,46.01647]],"type":"MultiPoint"}},
 {"type":"Feature","properties":{"pointStyle":{"type":"x","color":[73,80,70]}},"geometry":{"coordinates":[[-5.7092,47.93703]],"type":"MultiPoint"}},
 {"type":"Feature","properties":{"pointStyle":{"type":"x","color":[73,80,70]}},"geometry":{"coordinates":[[-3.06083,47.84782]],"type":"MultiPoint"}},
-{"type":"Feature","properties":{"fillStyle":{"color":[87,66,66],"opacity":1},"lineStyle":{"color":[64,64,64],"width":2,"opacity":1,"dashArray":null}},"geometry":{"coordinates":[[[-0.53333,50.49667],[-0.25306,50.22972],[-0.53194,50],[-0.53333,50.49667],[-0.53333,50.49667]]],"type":"Polygon"}},
 {"type":"Feature","properties":{"lineStyle":{"color":[109,109,109],"width":1,"opacity":1,"dashArray":[3,3]}},"geometry":{"coordinates":[[[-1.97647,50.00018],[-1.85259,49.58626],[-0.97313,49.51354],[-0.9776,49.54798],[-0.24997,49.92759]]],"type":"MultiLineString"}},
 {"type":"Feature","properties":{"lineStyle":{"color":[109,109,109],"width":1,"opacity":1,"dashArray":[3,3]}},"geometry":{"coordinates":[[[0.44007,50.65969],[-0.38251,50.35294],[-0.25306,50.22972],[-0.25,50]]],"type":"MultiLineString"}},
 {"type":"Feature","properties":{"lineStyle":{"color":[109,109,109],"width":1,"opacity":1,"dashArray":[3,3]}},"geometry":{"coordinates":[[[0.14224,50.54978],[0.432,50.27009]]],"type":"MultiLineString"}},

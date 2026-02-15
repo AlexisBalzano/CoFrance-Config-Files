@@ -13,7 +13,8 @@
         "monitoring_zones.geojson_version",
         "tag_formats.json_version",
         "predefined_holds.json_version",
-        "intention_codes.json_version"
+        "intention_codes.json_version",
+        "sequencer.json_version"
     ],
     "properties": {
         "$schema": {
@@ -56,6 +57,10 @@
             "pattern": "^\\d+\\.\\d+\\.\\d+$"
         },
         "intention_codes.json_version": {
+            "type": "string",
+            "pattern": "^\\d+\\.\\d+\\.\\d+$"
+        },
+        "sqeuencer.json_version": {
             "type": "string",
             "pattern": "^\\d+\\.\\d+\\.\\d+$"
         }

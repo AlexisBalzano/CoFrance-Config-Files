@@ -1,6 +1,6 @@
 {
   "$schema": "./.github/schema/intention_codes.schema.json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "LFEE_": {
     "arrivals": [
       "LFST",
@@ -154,7 +154,7 @@
         "waypoint": ["MMD"]
       },
       "NXS": {
-        "waypoint": ["DIDAK", "PEPON", "TERPO"]
+        "waypoint": ["DIDAK", "PEPON"]
       },
       "ODB": {
         "waypoint": ["OEDBU", "OGULO"]
@@ -188,6 +188,9 @@
       },
       "VLK": {
         "waypoint": ["VALKU"]
+      },
+      "TPR": {
+        "waypoint": ["TEPRI"]
       }
     }
   },

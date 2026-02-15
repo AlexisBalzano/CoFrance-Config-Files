@@ -1,0 +1,471 @@
+{
+  "$schema": "./.github/schema/sequencer.schema.json",
+  "version": "1.0.0",
+
+  "timelines": {
+    "LFPG_08": {
+      "type": "RWY",
+      "layout":  "APP",
+      "runways": ["PG_08R"]
+    },
+    "LFPG_09": {
+      "type": "RWY",
+      "layout": "APP",
+      "runways": ["PG_09L"]
+    },
+    "LFPG_26": {
+      "type": "RWY",
+      "layout": "APP",
+      "runways": ["PG_26L"]
+    },
+    "LFPG_27": {
+      "type": "RWY",
+      "layout": "APP",
+      "runways": ["PG_27R"]
+    },
+    "LFPG_08_ACC": {
+      "type": "RWY",
+      "layout":  "ACC",
+      "runways": ["PG_08R"]
+    },
+    "LFPG_09_ACC": {
+      "type": "RWY",
+      "layout": "ACC",
+      "runways": ["PG_09L"]
+    },
+    "LFPG_26_ACC": {
+      "type": "RWY",
+      "layout": "ACC",
+      "runways": ["PG_26L"]
+    },
+    "LFPG_27_ACC": {
+      "type": "RWY",
+      "layout": "ACC",
+      "runways": ["PG_27R"]
+    },
+    "LFPG_26_OKIPA": {
+      "type": "FF",
+      "layout":  "ACC",
+      "feeders": ["OKIPA"],
+      "runways": ["PG_26L"]
+    },
+    "LFPG_27_OKIPA": {
+      "type": "FF",
+      "layout": "ACC",
+      "feeders": ["OKIPA"],
+      "runways": ["PG_27R"]
+    }
+  },
+
+  "airports": {
+    "CDG": {
+      "config": {
+        "PG_W": ["PG_27R", "PG_26L", "PB_27"],
+        "PG_E": ["PG_09L", "PG_08R", "PB_07"]
+      },
+
+      "meteringFixes": [
+        "BIBAX",
+        "LUKIP",
+        "EPL",
+        "PENDU",
+        "UNKIR",
+        "MOKIP",
+        "DJL",
+        "KEPER",
+        "LATGO"
+      ],
+
+      "runways": {
+        "PG_09L": {
+          "runway": "09L",
+          "altRunway": "09R",
+          "defaultRate": 105,
+          "icao": "LFPG"
+        },
+        "PG_08R": {
+          "runway": "08R",
+          "altRunway": "08L",
+          "defaultRate": 105,
+          "icao": "LFPG"
+        },
+        "PG_27R": {
+          "runway": "27R",
+          "altRunway": "27L",
+          "defaultRate": 105,
+          "icao": "LFPG"
+        },
+        "PG_26L": {
+          "runway": "26L",
+          "altRunway": "26R",
+          "defaultRate": 105,
+          "icao": "LFPG"
+        },
+        "PB_07": {
+          "runway": "07",
+          "altRunway": "09",
+          "defaultRate": 120,
+          "icao": "LFPB"
+        },
+        "PB_27": {
+          "runway": "27",
+          "altRunway": "25",
+          "defaultRate": 120,
+          "icao": "LFPB"
+        }
+      },
+
+      "feeders": {
+        "OKIPA": {
+          "code": "O",
+          "color": [175, 124, 188],
+          "runwayPressure": {
+            "PG_27R": 60,
+            "PG_26L": 60
+          },
+          "timeToRunway": {
+            "PG_27R": 990,
+            "PG_26L": 960
+          }
+        },
+        "BANOX": {
+          "code": "B",
+          "color": [10, 191, 9],
+          "runwayPressure": {
+            "PG_27R": 210,
+            "PG_26L": 210
+          },
+          "timeToRunway": {
+            "PG_27R": 1140,
+            "PG_26L": 1320
+          }
+        },
+        "MOPAR": {
+          "code": "M",
+          "color": [64, 101, 224],
+          "runwayPressure": {
+            "PG_27R": 230,
+            "PG_26L": 230
+          },
+          "timeToRunway": {
+            "PG_27R": 1020,
+            "PG_26L": 1320
+          }
+        },
+        "LORNI": {
+          "code": "L",
+          "color": [247, 89, 0],
+          "runwayPressure": {
+            "PG_27R": 90,
+            "PG_26L": 90
+          },
+          "timeToRunway": {
+            "PG_27R": 840,
+            "PG_26L": 960
+          }
+        }
+
+      }
+
+    },
+
+    "Orly": {
+      "config": {
+        "PG_W": ["PO_25", "PN_25R", "PV_27"],
+        "PG_E": ["PO_06", "PN_07L", "PV_09"]
+      },
+
+      "meteringFixes": [
+        "BOBSA",
+        "MATIX",
+        "MOPIL",
+        "RENSA",
+        "EPL",
+        "RLP",
+        "DJL",
+        "TUTAX",
+        "ARDOL",
+        "PIBAT",
+        "MOU",
+        "AMB",
+        "NIMER",
+        "LUMAN"
+      ],
+
+      "runways": {
+        "PO_25": {
+          "runway": "25",
+          "icao": "LFPO",
+          "defaultRate": 105
+        },
+        "PO_24": {
+          "runway": "24",
+          "icao": "LFPO",
+          "defaultRate": 105
+        },
+        "PO_06": {
+          "runway": "06",
+          "icao": "LFPO",
+          "defaultRate": 105
+        },
+        "PO_07": {
+          "runway": "07",
+          "icao": "LFPO",
+          "defaultRate": 105
+        },
+        "PN_25R": {
+          "runway": "25R",
+          "altRunway": "25L",
+          "icao": "LFPN",
+          "defaultRate": 120
+        },
+        "PN_07L": {
+          "runway": "07L",
+          "altRunway": "07R",
+          "icao": "LFPN",
+          "defaultRate": 120
+        },
+        "PV_27": {
+          "runway": "27",
+          "icao": "LFPV",
+          "defaultRate": 120
+        },
+        "PV_09": {
+          "runway": "09",
+          "icao": "LFPV",
+          "defaultRate": 120
+        }
+      },
+
+      "feeders": {
+        "MOLBA": {
+          "code": "M",
+          "color": [175, 124, 188],
+          "runwayPressure": {
+            "PO_25": 60,
+            "PO_24": 60
+          },
+          "timeToRunway": {
+            "PO_25": 990,
+            "PO_24": 960
+          }
+        },
+        "ODILO": {
+          "code": "O",
+          "color": [10, 191, 9],
+          "runwayPressure": {
+            "PO_25": 210,
+            "PO_24": 210
+          },
+          "timeToRunway": {
+            "PO_25": 1140,
+            "PO_24": 1320
+          }
+        },
+        "VEBEK": {
+          "code": "V",
+          "color": [247, 89, 0],
+          "runwayPressure": {
+            "PO_25": 90,
+            "PO_24": 90
+          },
+          "timeToRunway": {
+            "PO_25": 840,
+            "PO_24": 960
+          }
+        }
+
+      }
+
+    },
+
+    "Lyon": {
+      "config": {
+        "L35_G27": ["LL_35R", "LS_27", "LB_18"],
+        "L35_G09": ["LL_35R", "LS_09", "LB_18"],
+        "L17_G27": ["LL_17L", "LS_27", "LB_18"],
+        "L17_G09": ["LL_17L", "LS_09", "LB_18"]
+      },
+
+      "meteringFixes": [
+        "FEDZI",
+        "LESPI",
+        "MILPA",
+        "MEZIN",
+        "MTL",
+        "PINED",
+        "AMVAR"
+      ],
+
+      "runways": {
+        "LL_35R": {
+          "runway": "35R",
+          "altRunway": "35L",
+          "icao": "LFLL",
+          "defaultRate": 105
+        },
+        "LL_17L": {
+          "runway": "17L",
+          "altRunway": "17R",
+          "icao": "LFLL",
+          "defaultRate": 105
+        },
+        "LS_09": {
+          "runway": "09",
+          "icao": "LFLS",
+          "defaultRate": 120
+        },
+        "LS_27": {
+          "runway": "27",
+          "icao": "LFLS",
+          "defaultRate": 120
+        },
+        "LB_18": {
+          "runway": "18",
+          "altRunway": "18L",
+          "icao": "LFLB",
+          "defaultRate": 120
+        },
+        "LB_36": {
+          "runway": "36",
+          "altRunway": "36R",
+          "icao": "LFLB",
+          "defaultRate": 120
+        }
+      },
+
+      "feeders": {
+        "GOMET": {
+          "code": "G",
+          "color": [175, 124, 188],
+          "runwayPressure": {
+            "LL_17L": 180,
+            "LL_35R": 90
+          },
+          "timeToRunway": {
+            "LL_17L": 720,
+            "LL_35R": 420
+          }
+        },
+        "ARBON": {
+          "code": "A",
+          "color": [10, 191, 9],
+          "runwayPressure": {
+            "LL_17L": 180,
+            "LL_35R": 90
+          },
+          "timeToRunway": {
+            "LL_17L": 780,
+            "LL_35R": 360
+          }
+        },
+        "TALAR": {
+          "code": "T",
+          "color": [64, 101, 224],
+          "runwayPressure": {
+            "LL_17L": 60,
+            "LL_35R": 180
+          },
+          "timeToRunway": {
+            "LL_17L": 420,
+            "LL_35R": 660
+          }
+        },
+        "RIPTU": {
+          "code": "R",
+          "color": [247, 89, 0],
+          "runwayPressure": {
+            "LL_17L": 60,
+            "LL_35R": 180
+          },
+          "timeToRunway": {
+            "LL_17L": 360,
+            "LL_35R": 720
+          }
+        }
+
+      }
+
+    },
+
+    "TLS": {
+      "config": {
+      },
+
+      "meteringFixes": [
+      ],
+
+      "runways": {
+        "BO_14L": {
+          "runway": "14L",
+          "icao": "LFBO",
+          "defaultRate": 180
+        },
+        "BO_14R": {
+          "runway": "14R",
+          "icao": "LFBO",
+          "defaultRate": 180
+        },
+        "BO_32L": {
+          "runway": "32L",
+          "icao": "LFBO",
+          "defaultRate": 180
+        },
+        "BO_32R": {
+          "runway": "32R",
+          "icao": "LFBO",
+          "defaultRate": 180
+        }
+      },
+
+      "feeders": {
+        "ADIMO": {
+          "code": "A",
+          "color": [175, 124, 188],
+          "runwayPressure": {
+            "BO_32L": 180,
+            "BO_32R": 180,
+            "BO_14L": 30,
+            "BO_14R": 30
+          },
+          "timeToRunway": {}
+        },
+        "SURAS": {
+          "code": "S",
+          "color": [10, 191, 9],
+          "runwayPressure": {
+            "BO_32L": 180,
+            "BO_32R": 180,
+            "BO_14L": 90,
+            "BO_14R": 90
+          },
+          "timeToRunway": {}
+        },
+        "AGN": {
+          "code": "a",
+          "color": [64, 101, 224],
+          "runwayPressure": {
+            "BO_32L": 180,
+            "BO_32R": 180,
+            "BO_14L": 180,
+            "BO_14R": 90
+          },
+          "timeToRunway": {}
+        },
+        "FUZAP": {
+          "code": "F",
+          "color": [247, 89, 0],
+          "runwayPressure": {
+            "BO_32L": 150,
+            "BO_32R": 150,
+            "BO_14L": 60,
+            "BO_14R": 60
+          },
+          "timeToRunway": {}
+        }
+
+      }
+
+    }
+  }
+}

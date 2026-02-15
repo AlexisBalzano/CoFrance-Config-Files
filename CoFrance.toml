@@ -1,4 +1,4 @@
-version = "1.0.0"
+version = "1.0.1"
 
 [api_urls]
 ecfmp_api_url = "https://pintade.vatsim.fr/dataplatform/api/v1/current/ecfmp/flow-measures?active_only=true&current=true"
@@ -49,7 +49,8 @@ notified = [160, 216, 180]
 monitor = [108, 117, 119]
 ghost = [108, 117, 119]
 unconcerned = [80, 86, 87]
-alert = [220, 60, 40]
+alert = [241, 111, 34]
+alert_critical = [220, 60, 40]
 warning = [230, 200, 70]
 notification = [46, 144, 213]
 highlight_diamond = [232, 107, 38]
