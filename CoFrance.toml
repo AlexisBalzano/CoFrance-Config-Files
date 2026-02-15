@@ -1,4 +1,5 @@
 version = "1.0.1"
+config_repo = "AlexisBalzano/CoFrance-config-files/main"
 
 [api_urls]
 ecfmp_api_url = "https://pintade.vatsim.fr/dataplatform/api/v1/current/ecfmp/flow-measures?active_only=true&current=true"
