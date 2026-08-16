@@ -1,3 +1,26 @@
+# CoFrance v2.3.4 Changelog
+
+### Improvements
+- Fewer false positive STCA Alerts
+- Incorrect SSR Notification now showing on coordinated, and transfer in flights
+
+### Additions
+- Pseudo Pilot mode to open default Euroscope popups instead of CoFrance to drive Simulator pilots
+- Added filtering option inside frequency list menu
+- Added command definition in User Manual (Section 3.16)
+
+### Fixes
+- Fixed overwritten CPDLC messages if sent too fast
+- Fixed race condition on CPDLC messages publish
+- Fixed doubled CPDLC History window entries on CFL clearance
+- Fixed tag field rectangle height
+- Fixed minimized tag position
+- Fixed REL being displayed after handoff on ADVISORY
+- Fixed NAVAID command not accepting 4 char FIX
+- Fixed `.ring` command crashing if no ring number was provided
+- Fixed CR tooltip showing previous controller when selft tracking flight
+
+
 # CoFrance v2.3.3 Changelog
 
 ### Fixes
