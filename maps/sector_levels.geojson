@@ -177,13 +177,13 @@
         "layers": [
           {
             "upperAlt": 660,
-            "lowerAlt": 305,
+            "lowerAlt": 295,
             "ownership": "LFRR-XS",
             "prefixCallsign": "PAR_",
             "combine": []
           },
           {
-            "upperAlt": 305,
+            "upperAlt": 295,
             "lowerAlt": 115,
             "ownership": "LFFF-OG",
             "prefixCallsign": "PAR_",
@@ -534,6 +534,21 @@
         "layers": [
           {
             "upperAlt": 660,
+            "lowerAlt": 375,
+            "ownership": "LFEE-HR"
+          },
+          {
+            "upperAlt": 375,
+            "lowerAlt": 365,
+            "ownership": "LFEE-YR"
+          },
+          {
+            "upperAlt": 365,
+            "lowerAlt": 345,
+            "ownership": "LFEE-KR"
+          },
+          {
+            "upperAlt": 345,
             "lowerAlt": 315,
             "ownership": "LFEE-XR"
           }
@@ -558,6 +573,30 @@
         "layers": [
           {
             "upperAlt": 660,
+            "lowerAlt": 375,
+            "ownership": "LFEE-HR",
+            "combine": []
+          },
+          {
+            "upperAlt": 375,
+            "lowerAlt": 365,
+            "ownership": "LFEE-YR",
+            "combine": []
+          },
+          {
+            "upperAlt": 365,
+            "lowerAlt": 345,
+            "ownership": "LFEE-KR",
+            "combine": []
+          },
+          {
+            "upperAlt": 345,
+            "lowerAlt": 315,
+            "ownership": "LFEE-XR",
+            "combine": []
+          },
+          {
+            "upperAlt": 315,
             "lowerAlt": 265,
             "ownership": "LFEE-UR",
             "combine": []
@@ -577,11 +616,79 @@
       "properties": {
         "name": "UE",
         "size": 20,
+        "combine": [],
         "layers": [
           {
             "upperAlt": 660,
+            "lowerAlt": 365,
+            "ownership": "LFEE-HE",
+            "prefixCallsign": "LFEE_",
+            "combine": []
+          },
+          {
+            "upperAlt": 365,
+            "lowerAlt": 345,
+            "ownership": "LFEE-KE",
+            "prefixCallsign": "LFEE_",
+            "combine": []
+          },
+          {
+            "upperAlt": 345,
+            "lowerAlt": 315,
+            "ownership": "LFEE-XE",
+            "prefixCallsign": "LFEE_",
+            "combine": []
+          },
+          {
+            "upperAlt": 315,
             "lowerAlt": 195,
             "ownership": "LFEE-UE",
+            "prefixCallsign": "LFEE_CTR",
+            "combine": []
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.597081649028061,
+          48.606519441320806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UE-PAR",
+        "size": 20,
+        "combine": [],
+        "layers": [
+          {
+            "upperAlt": 660,
+            "lowerAlt": 365,
+            "ownership": "LFEE-HE",
+            "prefixCallsign": "PAR_",
+            "combine": []
+          },
+          {
+            "upperAlt": 365,
+            "lowerAlt": 345,
+            "ownership": "LFEE-KE",
+            "prefixCallsign": "PAR_",
+            "combine": []
+          },
+          {
+            "upperAlt": 345,
+            "lowerAlt": 315,
+            "ownership": "LFEE-XE",
+            "prefixCallsign": "PAR_",
+            "combine": []
+          },
+          {
+            "upperAlt": 315,
+            "lowerAlt": 195,
+            "ownership": "LFEE-UE",
+            "prefixCallsign": "PAR_",
             "combine": []
           }
         ]
@@ -602,8 +709,74 @@
         "layers": [
           {
             "upperAlt": 660,
+            "lowerAlt": 365,
+            "ownership": "LFEE-HH",
+            "prefixCallsign": "LFEE_",
+            "combine": []
+          },
+          {
+            "upperAlt": 365,
+            "lowerAlt": 345,
+            "ownership": "LFEE-KH",
+            "prefixCallsign": "LFEE_",
+            "combine": []
+          },
+          {
+            "upperAlt": 345,
+            "lowerAlt": 315,
+            "ownership": "LFEE-XH",
+            "prefixCallsign": "LFEE_",
+            "combine": []
+          },
+          {
+            "upperAlt": 315,
             "lowerAlt": 195,
             "ownership": "LFEE-UH",
+            "prefixCallsign": "LFEE_",
+            "combine": []
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.433515390055321,
+          47.583904503023021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UH-PAR",
+        "size": 20,
+        "layers": [
+          {
+            "upperAlt": 660,
+            "lowerAlt": 365,
+            "ownership": "LFEE-HH",
+            "prefixCallsign": "PAR_",
+            "combine": []
+          },
+          {
+            "upperAlt": 365,
+            "lowerAlt": 345,
+            "ownership": "LFEE-KH",
+            "prefixCallsign": "PAR_",
+            "combine": []
+          },
+          {
+            "upperAlt": 345,
+            "lowerAlt": 315,
+            "ownership": "LFEE-XH",
+            "prefixCallsign": "PAR_",
+            "combine": []
+          },
+          {
+            "upperAlt": 315,
+            "lowerAlt": 195,
+            "ownership": "LFEE-UH",
+            "prefixCallsign": "PAR_",
             "combine": []
           }
         ]
@@ -627,6 +800,18 @@
         "layers": [
           {
             "upperAlt": 660,
+            "lowerAlt": 365,
+            "ownership": "LFEE-HN",
+            "combine": []
+          },
+          {
+            "upperAlt": 365,
+            "lowerAlt": 345,
+            "ownership": "LFEE-YB",
+            "combine": []
+          },
+          {
+            "upperAlt": 345,
             "lowerAlt": 265,
             "ownership": "LFEE-UB",
             "combine": []
@@ -652,6 +837,18 @@
         "layers": [
           {
             "upperAlt": 660,
+            "lowerAlt": 365,
+            "ownership": "LFEE-HN",
+            "combine": []
+          },
+          {
+            "upperAlt": 365,
+            "lowerAlt": 345,
+            "ownership": "LFEE-KN",
+            "combine": []
+          },
+          {
+            "upperAlt": 345,
             "lowerAlt": 265,
             "ownership": "LFEE-UN",
             "combine": []
@@ -677,7 +874,19 @@
         "layers": [
           {
             "upperAlt": 660,
-            "lowerAlt": 195,
+            "lowerAlt": 365,
+            "ownership": "LFEE-HN",
+            "combine": []
+          },
+          {
+            "upperAlt": 365,
+            "lowerAlt": 345,
+            "ownership": "LFEE-YB",
+            "combine": []
+          },
+          {
+            "upperAlt": 345,
+            "lowerAlt": 265,
             "ownership": "LFEE-UB",
             "combine": []
           }
@@ -696,14 +905,96 @@
       "properties": {
         "name": "UF1",
         "size": 20,
+        "layers": [
+          {
+            "upperAlt": 660,
+            "lowerAlt": 345,
+            "ownership": "LFEE-KF",
+            "prefixCallsign": "LFEE_",
+            "combine": []
+          },
+          {
+            "upperAlt": 345,
+            "lowerAlt": 265,
+            "ownership": "LFEE-UF2",
+            "prefixCallsign": "LFEE_",
+            "combine": []
+          },
+          {
+            "upperAlt": 265,
+            "lowerAlt": 195,
+            "ownership": "LFEE-UF",
+            "prefixCallsign": "LFEE_",
+            "combine": []
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.416618819430338,
+          47.992379650262762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UF1-PAR",
+        "size": 20,
+        "layers": [
+          {
+            "upperAlt": 660,
+            "lowerAlt": 345,
+            "ownership": "LFEE-KF",
+            "prefixCallsign": "PAR_",
+            "combine": []
+          },
+          {
+            "upperAlt": 345,
+            "lowerAlt": 265,
+            "ownership": "LFEE-UF2",
+            "prefixCallsign": "PAR_",
+            "combine": []
+          },
+          {
+            "upperAlt": 265,
+            "lowerAlt": 195,
+            "ownership": "LFEE-UF",
+            "prefixCallsign": "PAR_",
+            "combine": []
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.416618819430338,
+          47.992379650262762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "UF2",
+        "size": 20,
         "combine": [
           "TL"
         ],
         "layers": [
           {
             "upperAlt": 660,
+            "lowerAlt": 345,
+            "ownership": "LFEE-KF",
+            "prefixCallsign": "LFEE_",
+            "combine": []
+          },
+          {
+            "upperAlt": 345,
             "lowerAlt": 265,
-            "ownership": "LFEE-UF",
+            "ownership": "LFEE-UF2",
+            "prefixCallsign": "LFEE_",
             "combine": []
           }
         ]
@@ -719,13 +1010,24 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "UF2",
+        "name": "UF2-PAR",
         "size": 20,
+        "combine": [
+          "TL"
+        ],
         "layers": [
           {
             "upperAlt": 660,
-            "lowerAlt": 195,
-            "ownership": "LFEE-UF",
+            "lowerAlt": 345,
+            "ownership": "LFEE-KF",
+            "prefixCallsign": "PAR_",
+            "combine": []
+          },
+          {
+            "upperAlt": 345,
+            "lowerAlt": 265,
+            "ownership": "LFEE-UF2",
+            "prefixCallsign": "PAR_",
             "combine": []
           }
         ]
@@ -733,8 +1035,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.416618819430338,
-          47.992379650262762
+          4.731675556358186,
+          48.471550618216462
         ]
       }
     },

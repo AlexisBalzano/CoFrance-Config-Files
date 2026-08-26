@@ -297,6 +297,16 @@
     "PAR_CTR",
     "PAR__CTR"
   ],
+  "LFEE-UF2": [
+    "LFEE_UF_CTR",
+    "LFEE__UF_CTR",
+    "LFEE_RME_CTR",
+    "LFEE_R1E_CTR",
+    "LFEE_CTR",
+    "LFEE__CTR",
+    "PAR_CTR",
+    "PAR__CTR"
+  ],
   "LFEE-UH": [
     "LFEE_UH_CTR",
     "LFEE__UH_CTR",
