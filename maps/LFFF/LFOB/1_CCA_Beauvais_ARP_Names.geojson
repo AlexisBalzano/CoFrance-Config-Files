@@ -1,0 +1,15 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","properties":{"uuid":"LFOB_VOR_NAMES","textStyle":{"color":[132,239,184],"fontFamily":"Arial","fontSize":10,"fontWeight":400,"text":"LFPG"}},"geometry":{"type":"MultiPoint","coordinates":[[2.610743,49.027171]]}},
+{"type":"Feature","properties":{"uuid":"LFOB_VOR_NAMES","textStyle":{"color":[132,239,184],"fontFamily":"Arial","fontSize":10,"fontWeight":400,"text":"LFPB"}},"geometry":{"type":"MultiPoint","coordinates":[[2.351004,48.95142]]}},
+{"type":"Feature","properties":{"uuid":"LFOB_VOR_NAMES","textStyle":{"color":[132,239,184],"fontFamily":"Arial","fontSize":10,"fontWeight":400,"text":"LFPA"}},"geometry":{"type":"MultiPoint","coordinates":[[2.354042,49.167405]]}},
+{"type":"Feature","properties":{"uuid":"LFOB_VOR_NAMES","textStyle":{"color":[132,239,184],"fontFamily":"Arial","fontSize":10,"fontWeight":400,"text":"(LFPC)"}},"geometry":{"type":"MultiPoint","coordinates":[[2.548466,49.24382]]}},
+{"type":"Feature","properties":{"uuid":"LFOB_VOR_NAMES","textStyle":{"color":[132,239,184],"fontFamily":"Arial","fontSize":10,"fontWeight":400,"text":"LFPT"}},"geometry":{"type":"MultiPoint","coordinates":[[2.08367,49.105791]]}},
+{"type":"Feature","properties":{"uuid":"LFOB_VOR_NAMES","textStyle":{"color":[132,239,184],"fontFamily":"Arial","fontSize":10,"fontWeight":400,"text":"LFXU"}},"geometry":{"type":"MultiPoint","coordinates":[[1.980382,49.004259]]}},
+{"type":"Feature","properties":{"uuid":"LFOB_VOR_NAMES","textStyle":{"color":[132,239,184],"fontFamily":"Arial","fontSize":10,"fontWeight":400,"text":"LFOE"}},"geometry":{"type":"MultiPoint","coordinates":[[1.263442,49.014222]]}},
+{"type":"Feature","properties":{"uuid":"LFOB_VOR_NAMES","textStyle":{"color":[132,239,184],"fontFamily":"Arial","fontSize":10,"fontWeight":400,"text":"LFOP"}},"geometry":{"type":"MultiPoint","coordinates":[[1.233063,49.388385]]}},
+{"type":"Feature","properties":{"uuid":"LFOB_VOR_NAMES","textStyle":{"color":[132,239,184],"fontFamily":"Arial","fontSize":10,"fontWeight":400,"text":"LFAY"}},"geometry":{"type":"MultiPoint","coordinates":[[2.44214,49.884176]]}},
+{"type":"Feature","properties":{"uuid":"LFOB_VOR_NAMES","textStyle":{"color":[132,239,184],"fontFamily":"Arial","fontSize":10,"fontWeight":400,"text":"LFAG"}},"geometry":{"type":"MultiPoint","coordinates":[[3.081615,49.871451]]}},
+{"type":"Feature","properties":{"uuid":"LFOB_VOR_NAMES","textStyle":{"color":[132,239,184],"fontFamily":"Arial","fontSize":10,"fontWeight":400,"text":"LFOW"}},"geometry":{"type":"MultiPoint","coordinates":[[3.253255,49.813658]]}},
+{"type":"Feature","properties":{"uuid":"LFOB_VOR_NAMES","textStyle":{"color":[132,239,184],"fontFamily":"Arial","fontSize":10,"fontWeight":400,"text":"LFJS"}},"geometry":{"type":"MultiPoint","coordinates":[[3.330721,49.339914]]}},
+{"type":"Feature","properties":{"uuid":"LFOB_VOR_NAMES","textStyle":{"color":[132,239,184],"fontFamily":"Arial","fontSize":10,"fontWeight":400,"text":"LFPP"}},"geometry":{"type":"MultiPoint","coordinates":[[2.782383,49.109768]]}}
+]}
