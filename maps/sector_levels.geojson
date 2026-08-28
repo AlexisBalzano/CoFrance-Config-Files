@@ -177,13 +177,13 @@
         "layers": [
           {
             "upperAlt": 660,
-            "lowerAlt": 295,
+            "lowerAlt": 305,
             "ownership": "LFRR-XS",
             "prefixCallsign": "PAR_",
             "combine": []
           },
           {
-            "upperAlt": 295,
+            "upperAlt": 305,
             "lowerAlt": 115,
             "ownership": "LFFF-OG",
             "prefixCallsign": "PAR_",
