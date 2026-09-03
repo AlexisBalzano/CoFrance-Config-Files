@@ -1,3 +1,39 @@
+# CoFrance v2.3.5 Changelog
+
+### Improvements
+- Reverted RFL to show filed RFL instead of highest on route
+- Modified Contact Me action position inside Callsign Menu
+- Removed ASSR notification reappears if flight is changing its SSR
+- Now using Central Squawk for SSR assignments
+- Rewrite of TCT & STCA
+- Custom ETA calculation for route
+- Better mode S downlinked IAS and MACH computation
+
+### Additions
+- Added built-in Browser window
+- Added `.cofrance manual` command to open CoFrance User Manual
+- Added DUPE notification based on Central Squawk reports
+- Added "Next" sector notification
+- Added STAR notification
+- Added CPA in QDM/SEP Tag
+- Added vSID Compatibility
+- Added VATCAN Booking Compatibility
+
+### Fixes
+- Fixed COPX showing in Tagged tag even if flight was cleared to this waypoint
+- Fixed Areas min/max levels display
+- Fixed APW alert not stopping when flight left the Area
+- Fixed IDENT notification being wrong color
+- Fixed display conditions of Invalid SSR notification
+- Fixed flight not being minimized when handed off and setting enabled
+- Fixed pseudo pilot mode not working if not controller
+- Fixed scratchpad not being cleared on release
+- Fixed "Continue" button in assigned rate popup when flight descending
+- Fixed Assigned rate sign not displaying in tag
+- Fixed reentry symbol logic
+- Fixed RAM triggering instantly in some instances
+
+
 # CoFrance v2.3.4 Changelog
 
 ### Improvements
