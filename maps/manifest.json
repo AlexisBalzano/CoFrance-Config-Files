@@ -85,8 +85,14 @@
         ],
         "LFBO": [
             "0_CCA_Toulouse",
-            "1_CCA_Toulouse_VFR",
-            "2_CCA_Toulouse_AMSR"
+            "1_CCA_Toulouse_Significant_FIX_Names",
+            "1_CCA_Toulouse_Static",
+            "2_CCA_Toulouse_Procedures_Names",
+            "2_CCA_Toulouse_Procedures",
+            "3_CCA_Toulouse_AE_AW_Split",
+            "4_CCA_Toulouse_VFR_VRP_Names",
+            "4_CCA_Toulouse_VFR_VRP",
+            "5_CCA_Toulouse_AMSR"
         ],
         "LFBP": [
             "0_CCA_Pyrenees",
