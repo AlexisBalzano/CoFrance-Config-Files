@@ -1,0 +1,11 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","properties":{"uuid":"LFOB_VOR_NAMES","textStyle":{"color":[132,239,184],"fontFamily":"Arial","fontSize":10,"fontWeight":400,"text":"EVX 112.4"}},"geometry":{"type":"MultiPoint","coordinates":[[1.290783,49.035139]]}},
+{"type":"Feature","properties":{"uuid":"LFOB_VOR_NAMES","textStyle":{"color":[132,239,184],"fontFamily":"Arial","fontSize":10,"fontWeight":400,"text":"ROU 116.8"}},"geometry":{"type":"MultiPoint","coordinates":[[1.281669,49.479263]]}},
+{"type":"Feature","properties":{"uuid":"LFOB_VOR_NAMES","textStyle":{"color":[132,239,184],"fontFamily":"Arial","fontSize":10,"fontWeight":400,"text":"BOV"}},"geometry":{"type":"MultiPoint","coordinates":[[2.188477,49.450635]]}},
+{"type":"Feature","properties":{"uuid":"LFOB_VOR_NAMES","textStyle":{"color":[132,239,184],"fontFamily":"Arial","fontSize":10,"fontWeight":400,"text":"109.65"}},"geometry":{"type":"MultiPoint","coordinates":[[2.189996,49.433351]]}},
+{"type":"Feature","properties":{"uuid":"LFOB_VOR_NAMES","textStyle":{"color":[132,239,184],"fontFamily":"Arial","fontSize":10,"fontWeight":400,"text":"CTL 117.6"}},"geometry":{"type":"MultiPoint","coordinates":[[3.616282,49.149028]]}},
+{"type":"Feature","properties":{"uuid":"LFOB_VOR_NAMES","textStyle":{"color":[132,239,184],"fontFamily":"Arial","fontSize":10,"fontWeight":400,"text":"ABB 108.45"}},"geometry":{"type":"MultiPoint","coordinates":[[1.893803,50.147217]]}},
+{"type":"Feature","properties":{"uuid":"LFOB_VOR_NAMES","textStyle":{"color":[132,239,184],"fontFamily":"Arial","fontSize":10,"fontWeight":400,"text":"LFAB"}},"geometry":{"type":"MultiPoint","coordinates":[[1.087245,49.858233]]}},
+{"type":"Feature","properties":{"uuid":"LFOB_VOR_NAMES","textStyle":{"color":[132,239,184],"fontFamily":"Arial","fontSize":10,"fontWeight":400,"text":"LFOS"}},"geometry":{"type":"MultiPoint","coordinates":[[0.655866,49.857254]]}},
+{"type":"Feature","properties":{"uuid":"LFOB_VOR_NAMES","textStyle":{"color":[132,239,184],"fontFamily":"Arial","fontSize":10,"fontWeight":400,"text":"LFAQ"}},"geometry":{"type":"MultiPoint","coordinates":[[2.694285,49.984389]]}}
+]}
