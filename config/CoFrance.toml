@@ -9,6 +9,7 @@ ese_folderpath = "../../Sectors/"
 ecfmp_api_url = "https://pintade.vatsim.fr/dataplatform/api/v1/current/ecfmp/flow-measures?active=true"
 area_api_url = "https://lara-backend.lusep.fi/data/reservations/lfxx.json"
 oceanic_api_url = "https://nattrak.vatsim.net/api/plugins"
+meteofrance_api_url= "https://pintade.vatsim.fr/dataplatform/api/v1/meteofrance"
 
 [oceanic_data]
 brest_oceanic_entry_points = ["ETIKI", "UMLER", "SEPAL", "BUNAV", "SIVIR"]
@@ -22,7 +23,7 @@ military_sectors_callsigns = [ "LFFM" ]
 lines = [
     "gs", "aspd", "scratchpad", "vz", "assigned_vz", "atyp", "hold", "eat", "coordination",
     "notification", "sequence", "lost", "stca", "tct", "\n",
-    "contact_flag", "callsign", "cpdlc_flag", "comms", "manual_coord", "sector", "rfl", "group", "\n",
+    "contact_flag", "callsign", "cpdlc_flag", "comms", "manual_coord", "sector", "next", "rfl", "group", "\n",
     "afl", "tendency", "cfl", "wpt", "ahdg", "\n",
     "xfl", "hfl", "copx", "intention", "\n",
     "cpdlc_rqst", "cpdlc_rqst_number"
